@@ -1,0 +1,30 @@
+book_filename: "seed_manual"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
+rmd_files:
+  html: []
+  latex: ["index.Rmd",
+"01-administrative_system.Rmd", 
+"02-seed_sampling.Rmd", "026-references.Rmd", 
+"03-pro-forma_for_equipment_register.Rmd", 
+"04-operation_of_staff_register.Rmd", 
+"05-operation_and_calibration_of_blowers.Rmd",
+"06-use_and_calibration_of_balances.Rmd",
+"07-use_and_calibration_of_thermometers.Rmd",
+"08-seed_registration_system.Rmd", 
+"09-sample_mixing_calibration_of_dividers_and_operation_of_seed_divider_register.Rmd",
+"10-operation_and_maintenance_of_the_seed_reference_collection.Rmd", 
+"11-physical_purity_test.Rmd",
+"12-germination_test.Rmd",
+"13-determination_of_seed_moisture_content.Rmd",
+"14-determination_of_other_seed_number.Rmd",
+"15-determination_of_thousand_seed_weight.Rmd",
+"16-tetrazolium_test.Rmd",
+"17-variation_in_seed_testing_and_the_use_of_tolerances_and_limits_of_variation.Rmd",
+"18-production_and_control_of_media.Rmd",
+"19-guard_sample_storage.Rmd", 
+"20-procedure_for_check_on_germination_substrate.Rmd",
+"21-issuing_of_ista_certificates.Rmd", 
+"22-proficiency_sample_testing.Rmd"]

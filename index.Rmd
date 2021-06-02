@@ -1,0 +1,38 @@
+--- 
+title: "Seed Manual"
+subtitle: "Standard Operating Procedure"
+author: "Deependra Dhakal"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+always_allow_html: true
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Seed Manual of Standard Operating Procedure for Nepal"
+header-includes: 
+  - \usepackage{fancyhdr}
+---
+
+```{r setup, include=FALSE, message=FALSE}
+require(knitr)
+knitr::opts_chunk$set(tidy = TRUE, cache = FALSE, 
+                      echo = FALSE, 
+                      tidy.opts = list(width.cutoff=50), 
+                      eval = TRUE, warning = FALSE, message = FALSE,
+                      # fig.show = "hold", 
+                      fig.align = "center", fig.width = 6,
+                      fig.asp = 0.9, out.width = "0.85\\linewidth")
+options(knitr.kable.NA = "", digits = 3, knitr.table.format = "latex")
+options(kableExtra.latex.load_packages = FALSE)
+require(kableExtra)
+require(tidyverse)
+ggplot2::theme_set(theme_bw())
+```
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

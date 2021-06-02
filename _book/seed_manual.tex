@@ -1,0 +1,1074 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Seed Manual},
+  pdfauthor={Deependra Dhakal},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+
+\usepackage{geometry} % for custom layout of book and landscape geometry support
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{dcolumn}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+% \usepackage[table]{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage[normalem]{ulem}
+\usepackage{rotating}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\usepackage[format=hang,labelfont=bf,margin=0.5cm,justification=centering]{caption}
+% \usepackage{exam} % this and exam.sty cause error
+\usepackage{pdfpages}
+
+% \usepackage{subcaption} % doesn't work with tinytex in windows
+% \newcommand{\subfloat}[2][need a sub-caption]{\subcaptionbox{#1}{#2}}
+
+% simple fix for exam class features of questions and solution
+\usepackage{enumitem}
+
+\newlist{questions}{enumerate}{3}
+\setlist[questions]{label=\arabic*.}
+\newcommand{\question}{\item}
+
+\newenvironment{solution}{ {\bfseries Solution}:}{}
+% \usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{Seed Manual}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Standard Operating Procedure}
+\author{Deependra Dhakal}
+\date{2021-06-01}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{adminsys}{%
+\chapter{Administrative System}\label{adminsys}}
+
+\hypertarget{scope-and-purpose}{%
+\section{Scope and Purpose}\label{scope-and-purpose}}
+
+The administrative division is the main support unit among all remaining technical units of CSTL. It provides human resources along with material and financial aid to all divisions and units of the organization. In coupled with them it provides secretarial services, staff management, store facilities, procurement as well as repair and maintenance of the equipment and other machineries.
+
+Seed samples are submitted to Sample Reception Unit of Administration Division along with the official request letter and are registered here.
+
+\hypertarget{procedure}{%
+\section{Procedure}\label{procedure}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Each sample along with all the set of Forms that has been prepared in the sample reception area is passed on to the Chief of Administration Division.
+\item
+  The chief of the Division examines the sample and the request letter. If the client has provided required information adequate quantity of the seed sample, the client will not be made to provide further clarification otherwise the clear information is generally sought before proceeding. The sample is coded and distributed along with the respective forms to the concerned laboratory unit or units for requested test data.
+\item
+  The covering letter accompanied with the submitted sample is retained with the administration unit in a covered folder.
+\item
+  The laboratory units, on the other hand, submit the test results with checking by units in- charge to the administration unit as soon as the forms/ cards have been duly filled with the test results and comments. The administration unit files them in the respective folder for further action.
+\item
+  Results are reported in the percentage and recalculation is done if necessary. Such recalculations are generally carried in the respective laboratory unit.
+\item
+  The purity test results are generally converted into percentage by weight. The duplicate percentages are averaged and checked against the respective tolerance tables. It, they are not in consistent with the tolerance level, additional duplicate tests are performed.
+\item
+  Germination test results are expressed in percentage by weight based on number of seeds. If the result is found to be out of tolerance level, the administration division asks the germination laboratory unit to repeat the tests by providing a new set of Pure Seed and Seed Analysis Card (Annex-I)
+\item
+  As soon as all data are furnished with the aid of concerned laboratories, a final check is made for the completeness and correctness of data and only then the test result or the test certificate in the Standard Report Format (Annex-II) is dispatched to the client.
+\item
+  A copy of the report along with all other relevant analysis cards are filed in the respective cover and is stored in a filing cabinet under ``completed tests''. These test results are preserved at least for a season or for a period as required under Seed Act and Rules before they are disposed off.
+\item
+  The administration unit does also take the responsibility of duly maintenance and servicing of the testing equipment and quality management system of the laboratory unit.
+\item
+  The administration unit offers a best possible service to the client and looks for to avail the results to the client whenever requested.
+\item
+  For the smooth and effective operation of the laboratory, proper routing of the sample from the registration through reporting becomes very important and prevailing flow diagram is attached.
+\end{enumerate}
+
+\begin{center}\includegraphics[width=0.85\linewidth]{seed_manual_files/figure-latex/general-process-unit-overview-1} \end{center}
+
+\hypertarget{seed-sampling}{%
+\section{Seed Sampling}\label{seed-sampling}}
+
+\hypertarget{scope}{%
+\subsection{Scope}\label{scope}}
+
+Various attributes of seed such as analytic, physiological, pathological and to some extent variety characteristics are determined in the laboratory based on different tests. Such determinations can only be an estimate unless the whole quantity of seed lot is tested. This is practically impossible, as a lot usually contains a large quantity of seed. Under such circumstances, to give as accurate an estimate as possible representative samples are prepared.
+
+A composite sample is obtained from the seed lot by drawing out small portions at random from different positions in the lot and thoroughly mixing them together. At each stage, thorough mixing is followed either by progressive sub-division or by the abstraction and combination of small portions at random.
+
+\hypertarget{object}{%
+\subsection{Object}\label{object}}
+
+The objective of sampling is to obtain a sample of a size suitable for tests, in which probability of a constituent being present is determined only by its level of occurrence in the seed lot.
+
+\hypertarget{definitions}{%
+\subsection{Definitions}\label{definitions}}
+
+\hypertarget{seed-lot}{%
+\subsubsection{Seed Lot}\label{seed-lot}}
+
+A Seed lot is a specified quantity of seed that is physically and uniquely identifiable.
+
+\hypertarget{primary-sample}{%
+\subsubsection{Primary Sample}\label{primary-sample}}
+
+A primary sample is a small portion taken from the seed lot during one single sampling action.
+
+\hypertarget{composite-sample}{%
+\subsubsection{Composite Sample}\label{composite-sample}}
+
+The composite sample is formed by combining and mixing all the primary samples to taken from the lot.
+
+\hypertarget{working-sample}{%
+\subsubsection{Working Sample}\label{working-sample}}
+
+The working sample is a sub-sample taken from the submitted sample in the laboratory, or a sub-sample thereof, on which one of the quality tests described in these ISTA Rules is made and must be at least the weight prescribed by the ISTA Rules for the particular test.
+
+\hypertarget{submitted-sample}{%
+\subsubsection{Submitted Sample}\label{submitted-sample}}
+
+A submitted sample is a sample that is to be submitted to the testing laboratory and may comprise either the whole of the composite sample or a subsample thereof. The submitted sample may be divided into subsamples packed in different material meeting conditions for specific tests e.g.~moisture or health.
+
+\hypertarget{duplicate-sample}{%
+\subsubsection{Duplicate sample}\label{duplicate-sample}}
+
+A duplicate sample is another sample obtained for submission from the sample composite and marked `Duplicate sample'.
+
+\hypertarget{sub-sample}{%
+\subsubsection{Sub-sample}\label{sub-sample}}
+
+A submitted sample is a portion of a obtained by reducing a sample.
+
+\hypertarget{sealed}{%
+\subsubsection{Sealed}\label{sealed}}
+
+Sealed means that the containers or individual container in which the seed is held are closed in such a way that, it cannot be opened to gain access to the seed and closed again, without either destroying the seal or leaving evidence of tempering. This definition refers to the sealing of seed lots, as well as of seed samples.
+
+\hypertarget{self-sealing-containers}{%
+\subsubsection{Self-sealing containers}\label{self-sealing-containers}}
+
+The `valve-pack' bag is a specific type of self-sealing container. It is filled through a sleeve-shaped valve which is automatically closed by the completion of filling the bag.
+
+\hypertarget{markedlabeled}{%
+\subsubsection{Marked/labeled}\label{markedlabeled}}
+
+A container of a seed lot can be considered as marked or labeled when there is a unique identification mark on the container, which defines the seed lot to which the container belongs. All containers of a seed lot must be marked with the same unique seed lot designation (numbers, characters or combination of both). Marking of samples and sub-samples must ensure that there is always an unambiguous link between the seed lot and the samples and sub-samples.
+
+\hypertarget{treated-seed}{%
+\subsubsection{Treated seed}\label{treated-seed}}
+
+`Seed treatment' is a generic term which indicates that a seed lot has been subjected to;
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\item
+  the application of a compound including chemicals, nutrients or hormones
+\item
+  the application of a biological product including micro-organisms,
+\item
+  a process including wetting and drying
+\item
+  an energy form including heat, radiation, electricity or magnetism but does not specify the application method.
+\end{enumerate}
+
+Seed treatment does not significantly change the size, shape or add to the weight of the seeds in the lot.
+
+\hypertarget{conditions-for-issuing-orange-international-seed-lot-certificates}{%
+\subsection{Conditions for issuing Orange International Seed Lot Certificates}\label{conditions-for-issuing-orange-international-seed-lot-certificates}}
+
+The sampling methods laid down in the ISTA Rules must be followed when seed samples are drawn for the issue of Orange International Certificates. Further conditions have to be fulfilled as listed below.
+
+\hypertarget{seed-lot-size}{%
+\subsubsection{Seed lot size}\label{seed-lot-size}}
+
+The seed lot must not exceed the quantity indicated in ISTA Rules (Table 2C)
+
+\hypertarget{large-herbage-seed-lots-of-poaceae}{%
+\subsubsection{Large herbage seed lots of Poaceae}\label{large-herbage-seed-lots-of-poaceae}}
+
+Seeds may have a maximum size of 25000 Kg (with a 5\% tolerance)
+
+\hypertarget{check-sampling-and-testing}{%
+\subsubsection{Check sampling and testing}\label{check-sampling-and-testing}}
+
+After approval, the large seed lots of a production plant must be monitored by check sampling and further heterogeneity testing and as a minimum based on purity and other seed count.
+
+If more than one of the last six consecutive check samples tested shows significant heterogeneity, approval must be withdrawn for the species or species of group and company must be re-apply for approval.
+
+\hypertarget{responsibility}{%
+\subsubsection{Responsibility}\label{responsibility}}
+
+The Seed Quality Control Center in a country is responsible for;
+
+\begin{itemize}
+\tightlist
+\item
+  the decision of approval of the seed company ,
+\item
+  ensuring that each production plant is approved separately, if a seed company has more the one production plant,
+\item
+  ensuring that testing is done by an ISTA-accredited laboratory,
+\item
+  the check sampling program.
+\end{itemize}
+
+\hypertarget{marking-labeling-and-sealing-of-containers}{%
+\subsubsection{Marking /labeling and sealing of containers}\label{marking-labeling-and-sealing-of-containers}}
+
+The seed lot must be in marked/labeled containers which are sealed or under the control of seed sampler.
+
+Where the seed lot is already marked/labeled and sealed before sampling, the seed sampler must verify marking /labeling and sealing on every container. Otherwise the sampler has to mark/label the containers before seed lot leaves his/her control.
+
+The samplers are personally responsible for seals, labels and bags supplied to them and it is their duty to ensure that primary, composite or submitted samples must never be left in the hands of persons not authorized by the seed testing unless they are sealed in such a way they cannot be tampered with.
+
+\hypertarget{sampling-from-the-seed-lot}{%
+\subsubsection{Sampling from the seed lot}\label{sampling-from-the-seed-lot}}
+
+Sampling form (Annex-IV) the seed lot methods must be used. An orange International Seed Lot Certificate issued on a seed lot is still valid after re-packing the seed lot in new containers provided that,
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\item
+  the identity of the seed in the initial seed lot is preserved
+\item
+  the seed lot designation is not changed.
+\item
+  the moving the seed into the new containers is done under the control of an ISTA seed sampler.
+\item
+  there is no processing of the seed during filling of the new containers.
+\end{enumerate}
+
+\hypertarget{submitted-sample-1}{%
+\subsubsection{Submitted sample}\label{submitted-sample-1}}
+
+The minimum sizes of submitted samples are as follows
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  For moisture determination,
+\end{enumerate}
+
+100 g for species that must be ground and 50 g for all other species. When moisture meters are to be used for testing, a large sample size may be necessary.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\item
+  For verification of species and variety
+\item
+  For all other test, at least the weight as described in ISTA Rule.
+\end{enumerate}
+
+\hypertarget{uniformity-of-the-lot}{%
+\subsubsection{Uniformity of the Lot}\label{uniformity-of-the-lot}}
+
+At the time of sampling the lot should have been subjected to appropriate mixing, blending and processing techniques so that it is as uniform as practicable.
+
+\hypertarget{containers}{%
+\subsubsection{Containers}\label{containers}}
+
+The lot should be in containers which are sealed in jute bags, metal drum that are sealed or air tight.
+
+\hypertarget{marking-and-sealing-the-lot}{%
+\subsubsection{Marking and Sealing the Lot}\label{marking-and-sealing-the-lot}}
+
+At the time of sampling, all containers must be sealed, labeled or marked to show lot identification.
+
+\hypertarget{procedures-for-sampling-the-lot}{%
+\subsection{Procedures for Sampling the Lot}\label{procedures-for-sampling-the-lot}}
+
+Sampling is done in two stages:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  A submitted sample is taken in the warehouse of field and sent to the seed-testing laboratory. This sample is usually ten times bigger than the quantity required for testing.
+\item
+  A working sample is prepared from the submitted sample in the laboratory for quality test.
+\item
+  Before the warehouse sampling, the seed lot shall be so arranged that each individual container of the lot is conveniently accessible. If the nature of the stacking of the lot or type of the container makes it impossible to apply procedures adequately, this sampling shall not be undertaken and when there is definite evidence of heterogeneity either physical or documentary, sampling shall be refused.
+\end{enumerate}
+
+\hypertarget{sampling-intensity}{%
+\subsection{Sampling Intensity}\label{sampling-intensity}}
+
+\hypertarget{general-principles}{%
+\subsubsection{General principles}\label{general-principles}}
+
+The number of primary samples to be taken depends on the size of a lot and type of containers. A composite sample is obtained from the seed lot by taking primary samples from different positions in the whole seed lot and combining them. From this composite sample, four subsamples are obtained by sample reduction procedures at one or more stages forming the submitted sample and finally the working samples for testing. For issuing ISTA Certifications, specific requirements have to be fulfilled.
+
+\hypertarget{apparatus}{%
+\subsubsection{Apparatus}\label{apparatus}}
+
+Sampling and sample reduction must be performed using appropriate techniques and equipment that is clean and in good condition. Containers (metal) used to collect primary samples, composite sample and during mixing and dividing must be static free to avoid chaff or small seeds adhering to the inside of the containers.
+
+\hypertarget{procedures}{%
+\subsubsection{Procedures}\label{procedures}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Procedures for sampling a seed lot
+\end{enumerate}
+
+1.1 Preparation of a seed lot and conditions for sampling
+
+At the time of sampling, the seed lot must be as uniform as practicable. If the seed lot is found to be obviously heterogeneous, sampling must be refused or stopped. In cases of doubt heterogeneity can be determined.
+
+Seed may be sampled in containers or when it enters containers. The containers must be fit for purpose, i.e.~must not damage the seed, and must be clean to avoid cross contamination. The containers must be labeled or marked before or just after sampling is completed. The seed lot must be so arranged that each part of the seed lot is conveniently accessible.
+
+\hypertarget{sampling-intensity-1}{%
+\subsubsection{Sampling intensity}\label{sampling-intensity-1}}
+
+A. For seed lot in containers of 15 kg to 100 kg capacity (inclusively), the sampling intensity according to Table 2A must be regarded as the minimum requirements.
+
+B. For seed lots in containers smaller than 15 kg capacity, containers must be combined into sampling units not exceeding 100 kg, e.g.~20 containers of 5 kg, 33 containers of 3 kg or 100 containers of 1 kg. For seed mats and tapes, small packets or reels may be combined to sampling units of not exceeding 2,000,000 seeds. The sampling units must be regarded containers as in Table 2A.
+
+When sampling seed in containers of more than 100 kg, or from streams of seed entering containers, the sampling intensity according Table 2B must be regarded as the minimum requirement.
+
+When sampling a seed lot of up to 15 containers, regard less of their size, the same number of primary samples must be taken from each container.
+
+\hypertarget{sampling-instruments-and-methods}{%
+\subsection{Sampling Instruments and Methods}\label{sampling-instruments-and-methods}}
+
+\hypertarget{taking-primary-samples}{%
+\subsubsection{Taking primary samples}\label{taking-primary-samples}}
+
+When defining the number and/or the size of primary samples, the seed sampler needs to ensure (besides meeting the minimum sampling intensity) that the minimum amount of seed required for the requested test(s) is sent to the testing laboratory and enough seed remains available for obtaining duplicate samples if requested.
+
+Primary sample of approximately equal size must be taken from a seed lot, irrespective of where in the lot or container the primary sample is taken.
+
+When the seed lot is in containers, the containers to be sampled must be selected at random or according to a systemic plan throughout the seed lot. Primary samples must be drawn from the top, middle and bottom of containers, but not necessarily from more than one position in any container, unless so specified in Table 2A and Table 2B.
+
+When the seed is in bulk or in large containers, the primary samples must be drawn from random position. Containers must be opened or pierced for abstraction of primary samples. The sampled containers must then be closed or the contents transferred to new containers. When seed is to be packed in special types of containers (e.g.~small, not penetrable, or moisture-proof containers), it should be sampled, if possible, either before or during the filling of the containers.
+
+The instruments being used must neither damage the seed nor select according to seed size, shape, density, chaffiness or any other quality trait. All sampling apparatus must be clean before use to prevent cross contamination. Trier must be long enough so that the opening at the tip reaches at least half of the diameter of the container. When the container is not accessible from opposite sides, the Trier must be long enough to reach the opposite side. Sampling seed lots may be done by one of the methods listed below.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  \textbf{Manual sampling from a seed stream}. Seed streams may also be sampled by using manual instruments when fulfilling the requirements listed under ``a''.
+\item
+  \textbf{Sampling Stick}. The sampling stick (e.g.~stick Trier, sleeve type Trier, spiral Trier) consist of two parts, one of which fits loosely inside the other, but tightly enough so that seed or impurities do not slip between them. The outer part has a solid pointed end. Both parts have slots in their walls so that the cavity of the inner part can be opened and closed by moving the two parts against each other by either a twisting or a push pull motion. The sampling stick may be used horizontally, diagonally or vertically. The spiral Trier has slots in a spiral arrangement for their subsequent opening from the tip to the handle and may only be used for seeds of a size smaller than \emph{Triticum aestivum}.
+\end{enumerate}
+
+However, when used vertically or diagonally downwards the sampling stick must either have partitions dividing the instrument into a number of compartments or have slots in a spiral arrangement. The minimum inside diameter should be about 25 mm for all species.
+When using the sampling stick, insert it in closed position into the container, gently push it so that the point reaches the required position, open the sampling stick, agitate it slightly to allow it to fill completely, gently close and withdraw it and empty the primary sample into a container. Care should be exercised in closing the sampling stick so that seeds are not damaged.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  \textbf{Nobbe trier}. The Nobbe trier (Dynamic spear) is a pointed tube with an opening near the pointed end. Seed passed through the tube and is collected in a container. The minimum internal diameter of the Nobbe trier should be about 10 mm for clovers and similar seeds, about 14 mm for cereals and about 20 mm for maize.
+\end{enumerate}
+
+When using the Nobbe trier, insert it at an angle of about 30º to the horizontal plane with the opening facing down, push the trier until it reaches required position and revolve it through 180º. Withdraw it with decreasing speed from the container, gently agitating the trier to help maintain an even flow of seed, and collect the seed sample coming from the tier in a suitable container.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  \textbf{Sampling by hand}. This method can be used for all species and may be the most suitable method for seed that may be damaged by the use of triers, seeds with wings, seeds with low moisture content, seed tapes and seed mats.
+\end{enumerate}
+
+For hand sampling seed in containers, all positions inside the containers must be accessible. Containers with layers which are not accessible from the regular opening may have to be cut open, sampled and repackaged. Containers may be partially or completely emptied during the sampling process to gain access to all positions in the containers. For sampling by hand, clean the hand and roll the sleeve up if necessary, insert the open hand into the container to the required position, close and withdraw the hand, taking great care that the fingers remain tightly closed about the seeds so none may escape, and empty the hand into a receiving pan.
+
+\hypertarget{obtaining-the-composite-sample}{%
+\subsubsection{Obtaining the composite sample}\label{obtaining-the-composite-sample}}
+
+When possible, the primary samples are compared with each other during sampling. The primary samples can only be combined to form the composite sample if they appear to be uniform. If not, the sampling procedure must be stopped. When primary samples are collected directly into one container, the content of this container may be regarded as the composite sample only if it appears uniform. If not, must not be used for obtaining a submitted sample.
+
+\hypertarget{obtaining-the-submitted-sample}{%
+\subsubsection{Obtaining the submitted sample}\label{obtaining-the-submitted-sample}}
+
+The submitted sample must be obtained by reducing the composite sample to an appropriate size by one of the methods referred to in sample reduction. Obtaining subsamples such as for moisture testing must be carried out in such a way that changes in moisture content are minimal. The composite sample can be submitted to the seed testing laboratory if it is of appropriate size or if it is difficult to mix and reduce the composite sample properly under warehouse conditions.
+
+Duplicate samples, which were requested not later than at the time of sampling, must be prepared in the same way as the submitted sample.
+
+\hypertarget{dispatch-of-the-submitted-sample}{%
+\subsubsection{Dispatch of the submitted sample}\label{dispatch-of-the-submitted-sample}}
+
+The submitted sample must be marked with the same identification as the seed lot. For an Orange International Seed Lot Certificate, the sample must be sealed. Submitted samples must be packed so as to prevent damage during transit. Submitted samples should be packed in breathable containers.
+
+Subsamples for moisture testing, and samples from seed lots which have been dried to low moisture content, must be packed in moisture-proof containers which contain as little air as possible. Submitted samples for germination tests, viability tests and health tests may only be packed in moisture-proof containers if suitable storage conditions can be assured. Submitted samples must be dispatched to the seed testing laboratory without delay.
+
+\hypertarget{storage-of-submitted-samples-before-testing}{%
+\subsubsection{Storage of submitted samples before testing}\label{storage-of-submitted-samples-before-testing}}
+
+Every effort must be made to start testing a submitted ample on the day receipt. Storage of orthodox seeds, when necessary, should be in a cool, well-ventilated room.
+
+Non-orthodox (i.e.~recalcitrant or intermediate) seeds should be tested as soon as possible after obtaining the submitted sample from composite sample and, necessary, storage should be done under species specific optimum conditions.
+
+\hypertarget{procedures-for-obtaining-the-submitted-and-working-sample}{%
+\subsection{Procedures for obtaining the submitted and working sample}\label{procedures-for-obtaining-the-submitted-and-working-sample}}
+
+\hypertarget{minimum-size-of-working-sample}{%
+\subsubsection{Minimum size of working sample}\label{minimum-size-of-working-sample}}
+
+Minimum sizes of working samples are prescribed in the appropriate chapter for each test. The working sample weights for purity analyses given in Table 2C are calculated to contain at least 2500 seeds. These weights are recommended for normal use in purity tests.
+
+The sample weights in column 5 of Table 2C, part 1, for counts of other species are 10 times the weights in column 4, subject to a maximum of 1000 g.
+
+\hypertarget{sample-reduction-methods}{%
+\subsubsection{Sample reduction methods}\label{sample-reduction-methods}}
+
+If the seed sample needs to be reduced to a size equal to or greater than the size prescribed, the seed sample must first be thoroughly mixed. The submitted/working sample must then be obtained either by repeated halving or by abstracting and subsequently combining small random portions. The apparatus and methods for sample reduction are described in 8.2.1 to 8.2.4. One, two or more of these methods may be used in one sample reduction procedure. When using 0ne of the dividers described for seed pellets the distance of fall must not exceed 250 mm.
+
+Except in the case of seed health, the method of hand halving must be restricted to contain genera listed in 8.2.4. Only the spoon method and the hand halving method may be used in the laboratory to obtain working samples for seed health testing where other samples or equipment may be contaminated by spores or other propagating material.
+
+For seed tapes and mats take pieces of tape or mat at random, to provide sufficient seeds for the test.
+
+After obtaining a working sample or half-working sample the remainder must be re-mixed before a second working sample or half working sample is obtained.
+
+To obtain the submitted sample for moisture content determination (8.4.4 a), sub-samples must be taken in the following way: first, mix the composite sample. Then take a minimum of three samples from different positions and combine them to create the sub-sample for moisture of the required size. The sub-sample for moisture must be taken as soon as possible to avoid changes in moisture content.
+
+To obtain the working sample for moisture content determination sub-samples must be taken in the following way: before taking the sub-sample, mix the sample by either stirring the sample in its container with a spoon or by placing the opening of the original container against the opening of the similar container and pour the seed back and forth between the two containers. Take a minimum of three sub-samples with a spoon from different positions and the combine them to create the sub-sample of the required size. The seed must not be exposed to the air during sample reduction for more than 30 s.
+
+\hypertarget{mechanical-divider-method}{%
+\paragraph{Mechanical divider method}\label{mechanical-divider-method}}
+
+This method is suitable for all kinds of seeds except some very chaffy seeds. The apparatus divides a sample passed through it into two or more approximately equal parts. The submitted sample can be mixed by passing it through the divider, recombining the parts and passing the whole sample through a second time, and similarly, a third time if necessary. The sample is reduced by passing the seed through repeatedly and removing parts on each occasion. This process of reduction is continued until a working sample of approximately, but not less than, the required size is obtained.
+
+The dividers described below are examples of suitable equipment.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \textbf{Conical divider}. The conical (Boerner type) consist of a hopper, cone, and series of baffles directing the seed into two spouts. The baffles from alternate channels and space of equal width. They are arranged in a circle and are directed inward and downward, the channels leading to one spout and the spaces to as opposite spout. A valve or gate at the base of the hopper retails the seed. When the valve is opened the seed falls by gravity over the cone where it is evenly distributed to the channels and spaces, then passes through the spouts into the seed pans.
+\end{enumerate}
+
+The following dimensions are suitable: About 38 channels, each about 25 mm wide for large seeds and about 44 channels each about 8 mm wide for small free- flowing seeds.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\item
+  \textbf{Soil divider}. The soil divider (riffle divider) consists of a hopper with about 18 attached channels or ducts alternately leading to opposite sides. A channel width of about 13 mm is suitable.
+  In using the divider the seed is placed evenly into a pouring pan and then poured in the hopper at approximately equal rates along the entire length. The seed passes through the channels and is collected in two receiving pans.
+\item
+  \textbf{Centrifugal divider}. In the centrifugal divider (Gamet type) the seed flows downward through a hopper onto a shallow cup or spinner. Upon rotation to the spinner by an electric motor the seeds are thrown out by centrifugal force and fall downward. The circle or area where the seeds fall is equally divided into two parts by stationary baffle so that approximately half the seeds fall in one spout and half in the other spout. The centrifugal divider tends to give variable results unless the spinner is operated after having poured the seed centrally into the hopper.
+\item
+  \textbf{Rotary divider}. The rotary divider comprises a rotating crown unit with 6 to 10 attached subsample containers, a vibration chute and a hopper. In using the divider the seed is poured into the hopper and the rotary divider is switched on so that the crown unit with the containers rotates with approx. 100 rpm and the vibration chute starts to feed the seed into the inlet cylinder of the rotating crown. The feeding rate and therefore the duration of the dividing operation can be adjusted by the distance between the funnel of the hopper and the chute and the vibration intensity of the chute. There are two principles: (i) The inlet cylinder feeds the seed centrally onto a distributor within the rotating crown distributing the seed to all containers simultaneously. (ii) The inlet cylinder feeds the seed de-centrally into the inlet of the containers rotating underneath the inlet cylinder so that the seed stream is subdivided into a lot of subsamples.
+\item
+  \textbf{Variable sample divider}. The variable sample divider consists of a pouring hopper and tube underneath that rotates with about 40 rpm. The tube distributes the seed stream from the pouring hopper onto the inner surface of a further hopper, which is well fitted into a third hopper all being concentric. In the second and the third hopper there are slots that comprise 50\% of the perimeter of the hoppers. 50\% of the seed will pass through the two hopes into a collecting pan. The other 50\% will stay within the hoppers and will then go into a second collecting pan. The two hoppers can be twisted against each other resulting in more narrow slots. The effect is that a smaller percentage will pass through the slots. Either the smaller sample outside the hoppers or the bigger sample inside the hoppers can be used as the required sample. The position of the two hoppers in relation on each other can be adjusted accurately, resulting in pre-determined subsample sizes.
+\end{enumerate}
+
+\hypertarget{modified-halving-method}{%
+\paragraph{Modified halving method}\label{modified-halving-method}}
+
+The apparatus comprises a tray into which fits a grid of equal-sized cubical cells, open at the top and every alternate one having no bottom. After preliminary mixing the seed is poured evenly over the grid. When the grid is lifted, approximately half the sample remains on the tray. The submitted sample is successively halved in this way until a working sample, of approximately but not less than the required six, is obtained.
+
+\hypertarget{spoon-method}{%
+\paragraph{Spoon method}\label{spoon-method}}
+
+The spoon method is recommended for sample reduction for seed health testing. For other test is it restricted to species with seeds smaller then \emph{Triticum spp.}, to the genera \emph{Arachis}, \emph{Glycine} and \emph{Phaseolus}, and to tree genera \emph{Abies}, \emph{Cedrus} and \emph{Pseudotsuga}. A tray, a spatula and a spoon with a straight edge are required. After preliminary mixing, pour the seed evenly over the tray: do not shake the tray thereafter. With the spoon in the one hand, the spatula in the other, and using both remove small portion of seed from not less than five random places. Sufficient portions of seed are taken to constitute a subsample of the required size.
+
+Test results must be reported in accordance with the rules for calculating, expressing and reporting results in the appropriate chapter of the ISTA Rules. If there is a space on the certificate for certain determinations which are not made applicable, `N' for not tested' must be placed in the space.
+
+\hypertarget{hand-halving-method}{%
+\paragraph{Hand halving method}\label{hand-halving-method}}
+
+To genera of chaffy seeds, easily damaged fragile seed, seed of trees and shrubs, seed health tests.
+
+\hypertarget{heterogeneity-testing-for-seed-lots-in-multiple-containers}{%
+\section{Heterogeneity testing for seed lots in multiple containers}\label{heterogeneity-testing-for-seed-lots-in-multiple-containers}}
+
+The object of heterogeneity testing is to detect the presence of heterogeneity which makes the seed lot technically unacceptable for sampling.
+
+\hypertarget{the-h-value-test}{%
+\subsection{The H value test}\label{the-h-value-test}}
+
+\hypertarget{definitions-of-terms-and-symbols}{%
+\subsubsection{Definitions of terms and symbols}\label{definitions-of-terms-and-symbols}}
+
+The testing of predominantly in - range heterogeneity of an attribute adopted as an indicator involves a comparison between the observed variance and the acceptable variance of the attribute. The container-samples of a seed lot are samples drawn independently of each other from different containers. The examinations of container - samples for the indicating attribute must also be mutually independent. Since there is only one source of information for each container, heterogeneity within containers is not directly involved. The acceptable variance is calculated by multiplying the theoretical variance caused by random variation with a factor \(f\) for additional variation, taking into account the level of heterogeneity which is achievable in good seed production practice. The theoretical variance can be calculated from the respective probability distributions, which is the binomial distribution in the case of purity of the other seed count.
+
+\(N_o\) - Number of containers in the lot
+\(N\) - Number of independent container-samples
+\(n\) - Number of seeds tested from each container-samples (1000 for purity, 100 for germination and 10000 for other seed count)
+\(x\) - Test result of the adopted in a container-samples
+\(\sum\) - Symbol for sum of all values
+\(f\) - Factor for multiplying the theoretical variance to obtain the acceptable variance to obtain the acceptable Variance
+
+Mean of all \(X\) values determined for the lot in respect of the adopted attribute:
+
+\[
+\bar{X} = \frac{\sum{x}}{N}
+\]
+
+Acceptable variance of independent container-samples in respect of purity or germination percentages:
+
+\[
+W = \frac{\bar{X}(100-\bar{X})}{n}\times f
+\]
+
+Acceptable variance of independent container-samples in respect of other seeds"
+
+\[
+W = \bar{X} f
+\]
+
+Observed variance of independent container-samples based on all x values in respect of the adopted attribute:
+
+\[
+V = \frac{N\sum{x}^2 - (\sum{x})^2}{N(N-1)}
+\]
+H-value:
+
+\[
+\mathrm{H_{calculated}} = \frac{V}{W} - f
+\]
+
+Negative H-values are reported as zero.
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-2}Factors for additional variation in seed lot to be used for calculating W and finally the H-value}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{lrr}
+\toprule
+Attributes & Non-chaffy seeds & Chaffy seeds\\
+\midrule
+\cellcolor{gray!6}{Purity} & \cellcolor{gray!6}{1.1} & \cellcolor{gray!6}{1.2}\\
+Other seed count & 1.4 & 2.2\\
+\cellcolor{gray!6}{Germination} & \cellcolor{gray!6}{1.1} & \cellcolor{gray!6}{1.2}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Remarks:
+
+\begin{itemize}
+\tightlist
+\item
+  For purity and germination calculate to two decimal places if N is less than 10 and three decimal places if N is 10 or more.
+\item
+  For the number of other seeds, calculate to one decimal place if N is less than 10 and to two decimal places if N is 10 or more. For definition of non-chaffy and chaffy seeds see Chapter 3 of the ISTA Rules.
+\end{itemize}
+
+\hypertarget{sampling-the-lot}{%
+\subsubsection{Sampling the lot}\label{sampling-the-lot}}
+
+The number of independent container samples must be not less than presented in Table 2D. Sampling intensity has been chosen such that in a lot containing about 10\% deviating containers, at least one deviating container is selected with a probability of p=90\% Since the detection of a deviating container is conditional on Selection, the power of both tests to detect heterogeneity is at best close to equal, but usually lower than the chosen selection probability. The containers to be sampled are chosen strictly at random. The sample taken from the container must adequately represent the whole containers, e.g.~the top, middle and bottom of a bag. The weight of each container-sample must be not less than half that specified in the Table 2A.
+
+\hypertarget{testing-procedure}{%
+\subsubsection{Testing procedure}\label{testing-procedure}}
+
+The attribute adopted to indicate heterogeneity may be:
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\item
+  Percentage by weight of any purity component,
+\item
+  Percentage of any germination test component or
+\item
+  The total number of seeds or the number of any single species in the determination of other seeds by number.
+\end{enumerate}
+
+In the laboratory, a working sample is drawn from each container-sample and tested independently of any other sample for the chosen attribute.
+
+The Percentage by weight of any component may be used, provided it can be separated as in the purity analysis, e.g.~pure seed, other seeds, or empty seeds of grasses. The working sample should be of such weight as is estimated to contain 1000 seeds counted from each container- sample. Each working sample is separated into two fractions: the selected component and the remainder.
+
+Any kind of seed or seedling determinable in a standard germination test may be used, e.g.~normal seedling, abnormal seedling or hard seeds. From each container- sample a germination test of 100 seeds is set up simultaneously and completed in accordance with conditions specified in ISTA Rules (Table 5A).
+
+The seed count may be of any component that can be counted e.g.~a specified seed species, or all other seeds together. Each working sample must be of a weight estimated in it of the number of seeds of the kind selected (i.e.~other seed count).
+
+\hypertarget{use-of-sampling-intensity-and-critical-value.}{%
+\subsubsection{Use of Sampling intensity and critical value.}\label{use-of-sampling-intensity-and-critical-value.}}
+
+\textbf{Sampling intensity and critical value} shows the critical H values which would be exceeded in only 1\% of tests from seed lots with an acceptable distribution of the attribute adopted as indicator. If the calculated H value exceeds the critical H value belonging to the sample number N, the attribute and the chaffiness in Table 2D, then the lot is considered to show significant heterogeneity in the in-range, or possibly also the off- range sense. If, however, the calculated H value is less than or equal to the tabulated critical H value, then the lot is considered to show no heterogeneity in the in-range, or possibly off-range sense with respect to the attribute being tested.
+
+\hypertarget{reporting-results}{%
+\subsubsection{Reporting results}\label{reporting-results}}
+
+The result of the H value heterogeneity test for seed lots in multiple containers must be reported under `Other determinations' as follows;
+- \(\bar{X}\) : mean of all \(x\) values determined for the lot in respect of the adopted attribute;
+- \(N\) : number of independent container samples;
+- \(N_o\) : number of containers in the lot;
+- The calculated H value;
+- The statement: This H value does/does not indicate significant heterogeneity
+
+Note: the H value must not be calculated or reported if \(\bar{X}\) is outside the following limits:
+
+\begin{itemize}
+\tightlist
+\item
+  Purity components: above 99.8\% or below 0.2\%
+\item
+  Germination: above 99.0\% or below 1.0\% and Number of specified seeds: below two per sample.
+\end{itemize}
+
+\hypertarget{the-r-value-test}{%
+\subsection{The R value test}\label{the-r-value-test}}
+
+The object of this test is to detect off-range heterogeneity of the seed lot using the attribute adopted as an indicator. The test for off-range heterogeneity involves comparing the maximum difference found between samples of similar size drawn from the lot with a tolerated range. This tolerated range is based on the acceptable standard deviation, which is achievable in good seed production practice.
+
+Each independent container-sample is taken from a different container, so that heterogeneity within containers is not directly involved. Information about heterogeneity with containers is contained, however, in the acceptable standard deviation which is in fact incorporated into the tabulation of tolerated ranges. The acceptable standard deviation was calculated by the standard deviation due to random variation according to the binomial distribution in the case of purity and germination, and to the Poisson distribution in the case of the other seed count, multiplied by the square root of the factor \(f\) given in Table 2E, respectively. The spread between containers is characterized by the calculated range to be compared with the corresponding tolerated range.
+
+\hypertarget{definitions-of-terms-and-symbols-1}{%
+\subsubsection{Definitions of terms and symbols}\label{definitions-of-terms-and-symbols-1}}
+
+\(N_o\): Number of containers in the lot
+\(N\): Number of independent container-samples
+\(n\): Number of seed tested from each container-sample (1000 for purity, 100 for germination and 2500 for other seed count, see Testing procedure under `The H value test')
+\(x\): Test result of the adopted attribute in a container-sample
+\(\sum\): Symbol for sum of all values
+
+Mean of all \(x\) values determined for the lot in respect of the adopted attribute\footnote{for precision of X for the R-value test, see 2.9.1.1 `Remarks' to the H value test (ISTA Rules)}:
+
+\[
+\bar{X} = \frac{\sum{x}}{N}
+\]
+
+Range found as maximum difference between independent container samples of the lot in respect of the adopted attribute:
+
+\[
+R = x_{min} - x_{max}
+\]
+
+\hypertarget{sampling-the-lot-1}{%
+\subsubsection{Sampling the lot}\label{sampling-the-lot-1}}
+
+Sampling for the R value test is the same as for the H value test (see 2.9.1.2); the same samples must be used.
+
+\hypertarget{testing-procedure-1}{%
+\subsubsection{Testing procedure}\label{testing-procedure-1}}
+
+The same testing procedure of purity, germination and the other seed count are used for the R value test as are used for the H value test (see 2.9.1.3). For calculation, the same set of data must be used.
+
+\hypertarget{use-of-tables}{%
+\subsubsection{Use of tables}\label{use-of-tables}}
+
+Seed lot off-range heterogeneity is tested by using the appropriate table for tolerated, i.e.~critical rane:
+
+\begin{itemize}
+\tightlist
+\item
+  Table 2G for components of pure seed analyses,
+\item
+  Table 2H for germination determinations, and
+\item
+  Table 2I for number of other seeds.
+\end{itemize}
+
+\begin{longtable}[t]{rrrrr}
+\caption{\label{tab:purity-r-non-chaffy}Maximum tolerated ranges for the R value test at a significance level of 1\% probability using components of purity analyses as the indicating attribute in non-chaffy seeds.}\\
+\toprule
+\multicolumn{2}{c}{Average \textbackslash{}\% of the component and its complement} & \multicolumn{3}{c}{Tolerated range for number of independent samples (N)} \\
+\cmidrule(l{3pt}r{3pt}){1-2} \cmidrule(l{3pt}r{3pt}){3-5}
+ &  & 5-9 & 10-19 & 20\\
+\midrule
+\cellcolor{gray!6}{99.9} & \cellcolor{gray!6}{0.1} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{0.6}\\
+99.8 & 0.2 & 0.7 & 0.8 & 0.8\\
+\cellcolor{gray!6}{99.7} & \cellcolor{gray!6}{0.3} & \cellcolor{gray!6}{0.8} & \cellcolor{gray!6}{0.9} & \cellcolor{gray!6}{1.0}\\
+99.6 & 0.4 & 1.0 & 1.1 & 1.2\\
+\cellcolor{gray!6}{99.5} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{1.1} & \cellcolor{gray!6}{1.2} & \cellcolor{gray!6}{1.3}\\
+\addlinespace
+99.4 & 0.6 & 1.2 & 1.3 & 1.4\\
+\cellcolor{gray!6}{99.3} & \cellcolor{gray!6}{0.7} & \cellcolor{gray!6}{1.3} & \cellcolor{gray!6}{1.4} & \cellcolor{gray!6}{1.6}\\
+99.2 & 0.8 & 1.4 & 1.5 & 1.7\\
+\cellcolor{gray!6}{99.1} & \cellcolor{gray!6}{0.9} & \cellcolor{gray!6}{1.4} & \cellcolor{gray!6}{1.6} & \cellcolor{gray!6}{1.8}\\
+99.0 & 1.0 & 1.5 & 1.7 & 1.9\\
+\addlinespace
+\cellcolor{gray!6}{98.5} & \cellcolor{gray!6}{1.5} & \cellcolor{gray!6}{1.9} & \cellcolor{gray!6}{2.1} & \cellcolor{gray!6}{2.3}\\
+98.0 & 2.0 & 2.1 & 2.4 & 2.6\\
+\cellcolor{gray!6}{97.5} & \cellcolor{gray!6}{2.5} & \cellcolor{gray!6}{2.4} & \cellcolor{gray!6}{2.7} & \cellcolor{gray!6}{2.9}\\
+97.0 & 3.0 & 2.6 & 2.9 & 3.2\\
+\cellcolor{gray!6}{96.5} & \cellcolor{gray!6}{3.5} & \cellcolor{gray!6}{2.8} & \cellcolor{gray!6}{3.1} & \cellcolor{gray!6}{3.4}\\
+\addlinespace
+96.0 & 4.0 & 3.0 & 3.4 & 3.7\\
+\cellcolor{gray!6}{95.5} & \cellcolor{gray!6}{4.5} & \cellcolor{gray!6}{3.2} & \cellcolor{gray!6}{3.5} & \cellcolor{gray!6}{3.9}\\
+95.0 & 5.0 & 3.3 & 3.7 & 4.1\\
+\cellcolor{gray!6}{94.0} & \cellcolor{gray!6}{6.0} & \cellcolor{gray!6}{3.6} & \cellcolor{gray!6}{4.1} & \cellcolor{gray!6}{4.5}\\
+93.0 & 7.0 & 3.9 & 4.4 & 4.8\\
+\addlinespace
+\cellcolor{gray!6}{92.0} & \cellcolor{gray!6}{8.0} & \cellcolor{gray!6}{4.1} & \cellcolor{gray!6}{4.6} & \cellcolor{gray!6}{5.1}\\
+91.0 & 9.0 & 4.4 & 4.9 & 5.4\\
+\cellcolor{gray!6}{90.0} & \cellcolor{gray!6}{10.0} & \cellcolor{gray!6}{4.6} & \cellcolor{gray!6}{5.1} & \cellcolor{gray!6}{5.6}\\
+89.0 & 11.0 & 4.8 & 5.4 & 5.9\\
+\cellcolor{gray!6}{88.0} & \cellcolor{gray!6}{12.0} & \cellcolor{gray!6}{5.0} & \cellcolor{gray!6}{5.6} & \cellcolor{gray!6}{6.1}\\
+\addlinespace
+87.0 & 13.0 & 5.1 & 5.8 & 6.3\\
+\cellcolor{gray!6}{86.0} & \cellcolor{gray!6}{14.0} & \cellcolor{gray!6}{5.3} & \cellcolor{gray!6}{5.9} & \cellcolor{gray!6}{6.5}\\
+85.0 & 15.0 & 5.4 & 6.1 & 6.7\\
+\cellcolor{gray!6}{84.0} & \cellcolor{gray!6}{16.0} & \cellcolor{gray!6}{5.6} & \cellcolor{gray!6}{6.3} & \cellcolor{gray!6}{6.9}\\
+83.0 & 17.0 & 5.7 & 6.4 & 7.0\\
+\addlinespace
+\cellcolor{gray!6}{82.0} & \cellcolor{gray!6}{18.0} & \cellcolor{gray!6}{5.9} & \cellcolor{gray!6}{6.6} & \cellcolor{gray!6}{7.2}\\
+81.0 & 19.0 & 6.0 & 6.7 & 7.4\\
+\cellcolor{gray!6}{80.0} & \cellcolor{gray!6}{20.0} & \cellcolor{gray!6}{6.1} & \cellcolor{gray!6}{6.8} & \cellcolor{gray!6}{7.5}\\
+78.0 & 22.0 & 6.3 & 7.1 & 7.8\\
+\cellcolor{gray!6}{76.0} & \cellcolor{gray!6}{24.0} & \cellcolor{gray!6}{6.5} & \cellcolor{gray!6}{7.3} & \cellcolor{gray!6}{8.0}\\
+\addlinespace
+74.0 & 26.0 & 6.7 & 7.5 & 8.2\\
+\cellcolor{gray!6}{72.0} & \cellcolor{gray!6}{28.0} & \cellcolor{gray!6}{6.9} & \cellcolor{gray!6}{7.7} & \cellcolor{gray!6}{8.4}\\
+70.0 & 30.0 & 7.0 & 7.8 & 8.6\\
+\cellcolor{gray!6}{68.0} & \cellcolor{gray!6}{32.0} & \cellcolor{gray!6}{7.1} & \cellcolor{gray!6}{8.0} & \cellcolor{gray!6}{8.7}\\
+66.0 & 34.0 & 7.2 & 8.1 & 8.9\\
+\addlinespace
+\cellcolor{gray!6}{64.0} & \cellcolor{gray!6}{36.0} & \cellcolor{gray!6}{7.3} & \cellcolor{gray!6}{8.2} & \cellcolor{gray!6}{9.0}\\
+62.0 & 38.0 & 7.4 & 8.3 & 9.1\\
+\cellcolor{gray!6}{60.0} & \cellcolor{gray!6}{40.0} & \cellcolor{gray!6}{7.5} & \cellcolor{gray!6}{8.4} & \cellcolor{gray!6}{9.2}\\
+58.0 & 42.0 & 7.5 & 8.4 & 9.2\\
+\cellcolor{gray!6}{56.0} & \cellcolor{gray!6}{44.0} & \cellcolor{gray!6}{7.6} & \cellcolor{gray!6}{8.5} & \cellcolor{gray!6}{9.3}\\
+\addlinespace
+54.0 & 46.0 & 7.6 & 8.5 & 9.3\\
+\cellcolor{gray!6}{52.0} & \cellcolor{gray!6}{48.0} & \cellcolor{gray!6}{7.6} & \cellcolor{gray!6}{8.6} & \cellcolor{gray!6}{9.4}\\
+50.0 & 50.0 & 7.6 & 8.6 & 9.4\\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[t]{rrrrr}
+\caption{\label{tab:germination-r-non-chaffy}Maximum tolerated ranges for the R value test at a significance level of 1\% probability using components of purity analyses as the indicating attribute in non-chaffy seeds.}\\
+\toprule
+\multicolumn{2}{c}{Average \textbackslash{}\% of the component and its complement} & \multicolumn{3}{c}{Tolerated range for number of independent samples (N)} \\
+\cmidrule(l{3pt}r{3pt}){1-2} \cmidrule(l{3pt}r{3pt}){3-5}
+ &  & 5-9 & 10-19 & 20\\
+\midrule
+\cellcolor{gray!6}{99.9} & \cellcolor{gray!6}{0.1} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{0.6}\\
+99.8 & 0.2 & 0.7 & 0.8 & 0.8\\
+\cellcolor{gray!6}{99.7} & \cellcolor{gray!6}{0.3} & \cellcolor{gray!6}{0.8} & \cellcolor{gray!6}{0.9} & \cellcolor{gray!6}{1.0}\\
+99.6 & 0.4 & 1.0 & 1.1 & 1.2\\
+\cellcolor{gray!6}{99.5} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{1.1} & \cellcolor{gray!6}{1.2} & \cellcolor{gray!6}{1.3}\\
+\addlinespace
+99.4 & 0.6 & 1.2 & 1.3 & 1.4\\
+\cellcolor{gray!6}{99.3} & \cellcolor{gray!6}{0.7} & \cellcolor{gray!6}{1.3} & \cellcolor{gray!6}{1.4} & \cellcolor{gray!6}{1.6}\\
+99.2 & 0.8 & 1.4 & 1.5 & 1.7\\
+\cellcolor{gray!6}{99.1} & \cellcolor{gray!6}{0.9} & \cellcolor{gray!6}{1.4} & \cellcolor{gray!6}{1.6} & \cellcolor{gray!6}{1.8}\\
+99.0 & 1.0 & 1.5 & 1.7 & 1.9\\
+\addlinespace
+\cellcolor{gray!6}{98.5} & \cellcolor{gray!6}{1.5} & \cellcolor{gray!6}{1.9} & \cellcolor{gray!6}{2.1} & \cellcolor{gray!6}{2.3}\\
+98.0 & 2.0 & 2.1 & 2.4 & 2.6\\
+\cellcolor{gray!6}{97.5} & \cellcolor{gray!6}{2.5} & \cellcolor{gray!6}{2.4} & \cellcolor{gray!6}{2.7} & \cellcolor{gray!6}{2.9}\\
+97.0 & 3.0 & 2.6 & 2.9 & 3.2\\
+\cellcolor{gray!6}{96.5} & \cellcolor{gray!6}{3.5} & \cellcolor{gray!6}{2.8} & \cellcolor{gray!6}{3.1} & \cellcolor{gray!6}{3.4}\\
+\addlinespace
+96.0 & 4.0 & 3.0 & 3.4 & 3.7\\
+\cellcolor{gray!6}{95.5} & \cellcolor{gray!6}{4.5} & \cellcolor{gray!6}{3.2} & \cellcolor{gray!6}{3.5} & \cellcolor{gray!6}{3.9}\\
+95.0 & 5.0 & 3.3 & 3.7 & 4.1\\
+\cellcolor{gray!6}{94.0} & \cellcolor{gray!6}{6.0} & \cellcolor{gray!6}{3.6} & \cellcolor{gray!6}{4.1} & \cellcolor{gray!6}{4.5}\\
+93.0 & 7.0 & 3.9 & 4.4 & 4.8\\
+\addlinespace
+\cellcolor{gray!6}{92.0} & \cellcolor{gray!6}{8.0} & \cellcolor{gray!6}{4.1} & \cellcolor{gray!6}{4.6} & \cellcolor{gray!6}{5.1}\\
+91.0 & 9.0 & 4.4 & 4.9 & 5.4\\
+\cellcolor{gray!6}{90.0} & \cellcolor{gray!6}{10.0} & \cellcolor{gray!6}{4.6} & \cellcolor{gray!6}{5.1} & \cellcolor{gray!6}{5.6}\\
+89.0 & 11.0 & 4.8 & 5.4 & 5.9\\
+\cellcolor{gray!6}{88.0} & \cellcolor{gray!6}{12.0} & \cellcolor{gray!6}{5.0} & \cellcolor{gray!6}{5.6} & \cellcolor{gray!6}{6.1}\\
+\addlinespace
+87.0 & 13.0 & 5.1 & 5.8 & 6.3\\
+\cellcolor{gray!6}{86.0} & \cellcolor{gray!6}{14.0} & \cellcolor{gray!6}{5.3} & \cellcolor{gray!6}{5.9} & \cellcolor{gray!6}{6.5}\\
+85.0 & 15.0 & 5.4 & 6.1 & 6.7\\
+\cellcolor{gray!6}{84.0} & \cellcolor{gray!6}{16.0} & \cellcolor{gray!6}{5.6} & \cellcolor{gray!6}{6.3} & \cellcolor{gray!6}{6.9}\\
+83.0 & 17.0 & 5.7 & 6.4 & 7.0\\
+\addlinespace
+\cellcolor{gray!6}{82.0} & \cellcolor{gray!6}{18.0} & \cellcolor{gray!6}{5.9} & \cellcolor{gray!6}{6.6} & \cellcolor{gray!6}{7.2}\\
+81.0 & 19.0 & 6.0 & 6.7 & 7.4\\
+\cellcolor{gray!6}{80.0} & \cellcolor{gray!6}{20.0} & \cellcolor{gray!6}{6.1} & \cellcolor{gray!6}{6.8} & \cellcolor{gray!6}{7.5}\\
+78.0 & 22.0 & 6.3 & 7.1 & 7.8\\
+\cellcolor{gray!6}{76.0} & \cellcolor{gray!6}{24.0} & \cellcolor{gray!6}{6.5} & \cellcolor{gray!6}{7.3} & \cellcolor{gray!6}{8.0}\\
+\addlinespace
+74.0 & 26.0 & 6.7 & 7.5 & 8.2\\
+\cellcolor{gray!6}{72.0} & \cellcolor{gray!6}{28.0} & \cellcolor{gray!6}{6.9} & \cellcolor{gray!6}{7.7} & \cellcolor{gray!6}{8.4}\\
+70.0 & 30.0 & 7.0 & 7.8 & 8.6\\
+\cellcolor{gray!6}{68.0} & \cellcolor{gray!6}{32.0} & \cellcolor{gray!6}{7.1} & \cellcolor{gray!6}{8.0} & \cellcolor{gray!6}{8.7}\\
+66.0 & 34.0 & 7.2 & 8.1 & 8.9\\
+\addlinespace
+\cellcolor{gray!6}{64.0} & \cellcolor{gray!6}{36.0} & \cellcolor{gray!6}{7.3} & \cellcolor{gray!6}{8.2} & \cellcolor{gray!6}{9.0}\\
+62.0 & 38.0 & 7.4 & 8.3 & 9.1\\
+\cellcolor{gray!6}{60.0} & \cellcolor{gray!6}{40.0} & \cellcolor{gray!6}{7.5} & \cellcolor{gray!6}{8.4} & \cellcolor{gray!6}{9.2}\\
+58.0 & 42.0 & 7.5 & 8.4 & 9.2\\
+\cellcolor{gray!6}{56.0} & \cellcolor{gray!6}{44.0} & \cellcolor{gray!6}{7.6} & \cellcolor{gray!6}{8.5} & \cellcolor{gray!6}{9.3}\\
+\addlinespace
+54.0 & 46.0 & 7.6 & 8.5 & 9.3\\
+\cellcolor{gray!6}{52.0} & \cellcolor{gray!6}{48.0} & \cellcolor{gray!6}{7.6} & \cellcolor{gray!6}{8.6} & \cellcolor{gray!6}{9.4}\\
+50.0 & 50.0 & 7.6 & 8.6 & 9.4\\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[t]{rrrrr}
+\caption{\label{tab:other-seeds-r-non-chaffy}Maximum tolerated ranges for the R value test at a significance level of 1\% probability using components of purity analyses as the indicating attribute in non-chaffy seeds.}\\
+\toprule
+\multicolumn{2}{c}{Average \textbackslash{}\% of the component and its complement} & \multicolumn{3}{c}{Tolerated range for number of independent samples (N)} \\
+\cmidrule(l{3pt}r{3pt}){1-2} \cmidrule(l{3pt}r{3pt}){3-5}
+ &  & 5-9 & 10-19 & 20\\
+\midrule
+\cellcolor{gray!6}{99.9} & \cellcolor{gray!6}{0.1} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{0.6}\\
+99.8 & 0.2 & 0.7 & 0.8 & 0.8\\
+\cellcolor{gray!6}{99.7} & \cellcolor{gray!6}{0.3} & \cellcolor{gray!6}{0.8} & \cellcolor{gray!6}{0.9} & \cellcolor{gray!6}{1.0}\\
+99.6 & 0.4 & 1.0 & 1.1 & 1.2\\
+\cellcolor{gray!6}{99.5} & \cellcolor{gray!6}{0.5} & \cellcolor{gray!6}{1.1} & \cellcolor{gray!6}{1.2} & \cellcolor{gray!6}{1.3}\\
+\addlinespace
+99.4 & 0.6 & 1.2 & 1.3 & 1.4\\
+\cellcolor{gray!6}{99.3} & \cellcolor{gray!6}{0.7} & \cellcolor{gray!6}{1.3} & \cellcolor{gray!6}{1.4} & \cellcolor{gray!6}{1.6}\\
+99.2 & 0.8 & 1.4 & 1.5 & 1.7\\
+\cellcolor{gray!6}{99.1} & \cellcolor{gray!6}{0.9} & \cellcolor{gray!6}{1.4} & \cellcolor{gray!6}{1.6} & \cellcolor{gray!6}{1.8}\\
+99.0 & 1.0 & 1.5 & 1.7 & 1.9\\
+\addlinespace
+\cellcolor{gray!6}{98.5} & \cellcolor{gray!6}{1.5} & \cellcolor{gray!6}{1.9} & \cellcolor{gray!6}{2.1} & \cellcolor{gray!6}{2.3}\\
+98.0 & 2.0 & 2.1 & 2.4 & 2.6\\
+\cellcolor{gray!6}{97.5} & \cellcolor{gray!6}{2.5} & \cellcolor{gray!6}{2.4} & \cellcolor{gray!6}{2.7} & \cellcolor{gray!6}{2.9}\\
+97.0 & 3.0 & 2.6 & 2.9 & 3.2\\
+\cellcolor{gray!6}{96.5} & \cellcolor{gray!6}{3.5} & \cellcolor{gray!6}{2.8} & \cellcolor{gray!6}{3.1} & \cellcolor{gray!6}{3.4}\\
+\addlinespace
+96.0 & 4.0 & 3.0 & 3.4 & 3.7\\
+\cellcolor{gray!6}{95.5} & \cellcolor{gray!6}{4.5} & \cellcolor{gray!6}{3.2} & \cellcolor{gray!6}{3.5} & \cellcolor{gray!6}{3.9}\\
+95.0 & 5.0 & 3.3 & 3.7 & 4.1\\
+\cellcolor{gray!6}{94.0} & \cellcolor{gray!6}{6.0} & \cellcolor{gray!6}{3.6} & \cellcolor{gray!6}{4.1} & \cellcolor{gray!6}{4.5}\\
+93.0 & 7.0 & 3.9 & 4.4 & 4.8\\
+\addlinespace
+\cellcolor{gray!6}{92.0} & \cellcolor{gray!6}{8.0} & \cellcolor{gray!6}{4.1} & \cellcolor{gray!6}{4.6} & \cellcolor{gray!6}{5.1}\\
+91.0 & 9.0 & 4.4 & 4.9 & 5.4\\
+\cellcolor{gray!6}{90.0} & \cellcolor{gray!6}{10.0} & \cellcolor{gray!6}{4.6} & \cellcolor{gray!6}{5.1} & \cellcolor{gray!6}{5.6}\\
+89.0 & 11.0 & 4.8 & 5.4 & 5.9\\
+\cellcolor{gray!6}{88.0} & \cellcolor{gray!6}{12.0} & \cellcolor{gray!6}{5.0} & \cellcolor{gray!6}{5.6} & \cellcolor{gray!6}{6.1}\\
+\addlinespace
+87.0 & 13.0 & 5.1 & 5.8 & 6.3\\
+\cellcolor{gray!6}{86.0} & \cellcolor{gray!6}{14.0} & \cellcolor{gray!6}{5.3} & \cellcolor{gray!6}{5.9} & \cellcolor{gray!6}{6.5}\\
+85.0 & 15.0 & 5.4 & 6.1 & 6.7\\
+\cellcolor{gray!6}{84.0} & \cellcolor{gray!6}{16.0} & \cellcolor{gray!6}{5.6} & \cellcolor{gray!6}{6.3} & \cellcolor{gray!6}{6.9}\\
+83.0 & 17.0 & 5.7 & 6.4 & 7.0\\
+\addlinespace
+\cellcolor{gray!6}{82.0} & \cellcolor{gray!6}{18.0} & \cellcolor{gray!6}{5.9} & \cellcolor{gray!6}{6.6} & \cellcolor{gray!6}{7.2}\\
+81.0 & 19.0 & 6.0 & 6.7 & 7.4\\
+\cellcolor{gray!6}{80.0} & \cellcolor{gray!6}{20.0} & \cellcolor{gray!6}{6.1} & \cellcolor{gray!6}{6.8} & \cellcolor{gray!6}{7.5}\\
+78.0 & 22.0 & 6.3 & 7.1 & 7.8\\
+\cellcolor{gray!6}{76.0} & \cellcolor{gray!6}{24.0} & \cellcolor{gray!6}{6.5} & \cellcolor{gray!6}{7.3} & \cellcolor{gray!6}{8.0}\\
+\addlinespace
+74.0 & 26.0 & 6.7 & 7.5 & 8.2\\
+\cellcolor{gray!6}{72.0} & \cellcolor{gray!6}{28.0} & \cellcolor{gray!6}{6.9} & \cellcolor{gray!6}{7.7} & \cellcolor{gray!6}{8.4}\\
+70.0 & 30.0 & 7.0 & 7.8 & 8.6\\
+\cellcolor{gray!6}{68.0} & \cellcolor{gray!6}{32.0} & \cellcolor{gray!6}{7.1} & \cellcolor{gray!6}{8.0} & \cellcolor{gray!6}{8.7}\\
+66.0 & 34.0 & 7.2 & 8.1 & 8.9\\
+\addlinespace
+\cellcolor{gray!6}{64.0} & \cellcolor{gray!6}{36.0} & \cellcolor{gray!6}{7.3} & \cellcolor{gray!6}{8.2} & \cellcolor{gray!6}{9.0}\\
+62.0 & 38.0 & 7.4 & 8.3 & 9.1\\
+\cellcolor{gray!6}{60.0} & \cellcolor{gray!6}{40.0} & \cellcolor{gray!6}{7.5} & \cellcolor{gray!6}{8.4} & \cellcolor{gray!6}{9.2}\\
+58.0 & 42.0 & 7.5 & 8.4 & 9.2\\
+\cellcolor{gray!6}{56.0} & \cellcolor{gray!6}{44.0} & \cellcolor{gray!6}{7.6} & \cellcolor{gray!6}{8.5} & \cellcolor{gray!6}{9.3}\\
+\addlinespace
+54.0 & 46.0 & 7.6 & 8.5 & 9.3\\
+\cellcolor{gray!6}{52.0} & \cellcolor{gray!6}{48.0} & \cellcolor{gray!6}{7.6} & \cellcolor{gray!6}{8.6} & \cellcolor{gray!6}{9.4}\\
+50.0 & 50.0 & 7.6 & 8.6 & 9.4\\
+\bottomrule
+\end{longtable}
+
+For higher other seed counts (in non-chaffy seeds), tolerances (R) are calculated by using the following formula and rounding up to the next whole number.
+
+For \(N = 5-9\): \(R = \sqrt{\textrm{average count of other seed}} \times 5.44\)
+For \(N = 10-19\): \(R = \sqrt{\textrm{average count of other seed}} \times 6.11\)
+For \(N = 20\): \(R = \sqrt{\textrm{average count of other seed}} \times 6.69\)
+
+For higher other seed counts (in chaffy seeds), tolerances (R) are calculated by using the following formula and rounding up to the next whole number.
+
+For \(N = 5-9\): \(R = \sqrt{\textrm{average count of other seed}} \times 6.82\)
+For \(N = 10-19\): \(R = \sqrt{\textrm{average count of other seed}} \times 7.65\)
+For \(N = 20\): \(R = \sqrt{\textrm{average count of other seed}} \times 8..38\)
+
+Find the value \(\bar{X}\) in the ``Average'' columns of the appropriate table. When entering the table, round averages following the usual procedure; read off the tolerated range which would be exceeded in only 1\% of tests from seed lots with an acceptable distribution of the attribute:
+
+\begin{itemize}
+\tightlist
+\item
+  In column 5-9 for cases when N = 5 to 9,
+\item
+  In column 10-19 for cases when N = 10 to 19, or
+\item
+  In column 20 when N = 20
+\end{itemize}
+
+If the calculated R value exceeds this tolerated range, then the lot is considered to show significant heterogeneity in the off-range sense. If however, the calculated R-value is less than or equal to tabulated tolerated rage, then the lot is considered to show no heterogeneity in the off-range sense with respect to the attribute being tested.
+
+When using the tables, round averaegs to the next tabulated value (if in the middle, then downwards).
+
+\hypertarget{reporting-results-1}{%
+\subsubsection{Reporting results}\label{reporting-results-1}}
+
+The result of the R value heterogeneity test for seed lots in multiple containers must be reported under ``Other determinations'', as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\bar{X}\): mean of all \(x\) values determined for the lot in respect of the adopted attribute;
+\item
+  \(N\): number of independent container samples;
+\item
+  \(N_0\): number of containers in the lot;
+\item
+  the calculated R-value;
+\item
+  the statement: `This R value does/does not indicate significant heterogeneity.'
+\end{itemize}
+
+\hypertarget{interpretation-of-results}{%
+\subsection{Interpretation of results}\label{interpretation-of-results}}
+
+Whenever either of the two tests, the H value test or the R value test, indicates significant heterogeneity, then the lot must be declared heterogeneous. When, however, neither of the two tests indicates significant heterogeneity, then the lot must be adopted as non- heterogeneity, having a non- significant level of heterogeneity.
+
+\hypertarget{pro-forma-for-equipment-register}{%
+\chapter{Pro-forma for equipment register}\label{pro-forma-for-equipment-register}}
+
+\hypertarget{operation-of-staff-register}{%
+\chapter{Operation of staff register}\label{operation-of-staff-register}}
+
+\hypertarget{operation-and-calibration-of-blowers}{%
+\chapter{Operation and calibration of blowers}\label{operation-and-calibration-of-blowers}}
+
+\hypertarget{use-and-calibration-of-balances}{%
+\chapter{Use and calibration of balances}\label{use-and-calibration-of-balances}}
+
+\hypertarget{use-and-calibration-of-thermometer}{%
+\chapter{Use and calibration of thermometer}\label{use-and-calibration-of-thermometer}}
+
+\hypertarget{seed-registration-system}{%
+\chapter{Seed registration system}\label{seed-registration-system}}
+
+\hypertarget{sample-mixing-calibration-of-dividers-and-operation-of-seed-divider-register}{%
+\chapter{Sample mixing, calibration of dividers and operation of seed divider register}\label{sample-mixing-calibration-of-dividers-and-operation-of-seed-divider-register}}
+
+\hypertarget{operation-and-maintenance-of-the-seed-reference-collection}{%
+\chapter{Operation and maintenance of the seed reference collection}\label{operation-and-maintenance-of-the-seed-reference-collection}}
+
+\hypertarget{physical-purity-test}{%
+\chapter{Physical purity test}\label{physical-purity-test}}
+
+\hypertarget{germination-test}{%
+\chapter{Germination test}\label{germination-test}}
+
+\hypertarget{determination-of-seed-moisture-content}{%
+\chapter{Determination of seed moisture content}\label{determination-of-seed-moisture-content}}
+
+\hypertarget{determination-of-other-seed-number}{%
+\chapter{Determination of other seed number}\label{determination-of-other-seed-number}}
+
+\hypertarget{determination-of-thousand-seed-weight}{%
+\chapter{Determination of thousand seed weight}\label{determination-of-thousand-seed-weight}}
+
+\hypertarget{tetrazolium-test}{%
+\chapter{Tetrazolium test}\label{tetrazolium-test}}
+
+\hypertarget{variation-in-seed-testing-and-the-use-of-tolerances-and-limits-of-variation}{%
+\chapter{Variation in seed testing and the use of tolerances and limits of variation}\label{variation-in-seed-testing-and-the-use-of-tolerances-and-limits-of-variation}}
+
+\hypertarget{production-and-control-of-media}{%
+\chapter{Production and control of media}\label{production-and-control-of-media}}
+
+\hypertarget{guard-sample-storage}{%
+\chapter{Guard sample storage}\label{guard-sample-storage}}
+
+\hypertarget{procedure-for-check-on-germination-substrate}{%
+\chapter{Procedure for check on germination substrate}\label{procedure-for-check-on-germination-substrate}}
+
+\hypertarget{issuing-of-ista-certificates}{%
+\chapter{Issuing of ISTA certificates}\label{issuing-of-ista-certificates}}
+
+\hypertarget{proficiency-sample-testing}{%
+\chapter{Proficiency sample testing}\label{proficiency-sample-testing}}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}

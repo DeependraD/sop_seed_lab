@@ -1,0 +1,74 @@
+# Administrative System {#adminsys}
+
+## Scope and Purpose
+
+The administrative division is the main support unit among all remaining technical units of CSTL. It provides human resources along with material and financial aid to all divisions and units of the organization. In coupled with them it provides secretarial services, staff management, store facilities, procurement as well as repair and maintenance of the equipment and other machineries.
+
+Seed samples are submitted to Sample Reception Unit of Administration Division along with the official request letter and are registered here.
+
+## Procedure
+
+1. Each sample along with all the set of Forms that has been prepared in the sample reception area is passed on to the Chief of Administration Division.
+2. The chief of the Division examines the sample and the request letter. If the client has provided required information adequate quantity of the seed sample, the client will not be made to provide further clarification otherwise the clear information is generally sought before proceeding. The sample is coded and distributed along with the respective forms to the concerned laboratory unit or units for requested test data.
+3. The covering letter accompanied with the submitted sample is retained with the administration unit in a covered folder.
+4. The laboratory units, on the other hand, submit the test results with checking by units in- charge to the administration unit as soon as the forms/ cards have been duly filled with the test results and comments. The administration unit files them in the respective folder for further action.
+5. Results are reported in the percentage and recalculation is done if necessary. Such recalculations are generally carried in the respective laboratory unit.
+6. The purity test results are generally converted into percentage by weight. The duplicate percentages are averaged and checked against the respective tolerance tables. It, they are not in consistent with the tolerance level, additional duplicate tests are performed.
+7. Germination test results are expressed in percentage by weight based on number of seeds. If the result is found to be out of tolerance level, the administration division asks the germination laboratory unit to repeat the tests by providing a new set of Pure Seed and Seed Analysis Card (Annex-I)
+8. As soon as all data are furnished with the aid of concerned laboratories, a final check is made for the completeness and correctness of data and only then the test result or the test certificate in the Standard Report Format (Annex-II) is dispatched to the client.
+9. A copy of the report along with all other relevant analysis cards are filed in the respective cover and is stored in a filing cabinet under "completed tests". These test results are preserved at least for a season or for a period as required under Seed Act and Rules before they are disposed off.
+10. The administration unit does also take the responsibility of duly maintenance and servicing of the testing equipment and quality management system of the laboratory unit.
+11. The administration unit offers a best possible service to the client and looks for to avail the results to the client whenever requested.
+12. For the smooth and effective operation of the laboratory, proper routing of the sample from the registration through reporting becomes very important and prevailing flow diagram is attached.
+
+
+```{r general-process-unit-overview}
+DiagrammeR::grViz(
+  "
+  digraph boxes_and_circles {
+  graph [overlap = true, fontsize = 16, layout=dot, rankdir=TB, compound=true]
+  
+  node [shape = rectangle, fontname = Helvetica, style = filled, color = DodgerBlue, fillcolor = Wheat, fixedsize = false] //sets as rectangle
+  # if fixedwith=true, then width may be set to any value 1, 2, 3...
+  edge[color = MidnigtBlue, arrowhead = diamond, arrowtail = none]
+  
+  '@@1'
+  
+  subgraph cluster_administration_unit {
+    label='Administration unit';
+    node[shape = box, color = Blue, fillcolor = Cyan]
+      '@@2'
+  }
+  
+  
+  subgraph cluster_test_inference {
+    label='Test inference';
+    rank = same;
+    node[shape = rect, color = Blue, fillcolor = Cyan]
+      '@@3-1';'@@3-2'; # align these nodes top and bottom
+  }
+  
+  '@@4'
+  
+  '@@1' -> '@@2' [lhead = cluster_administration_unit, label='Sample with request letter', constraint=true]
+  '@@2' -> '@@1' [label = 'Test result/certificate'] # start arrow at subgraph not the node?
+  '@@2' -> '@@3-1' [lhead = cluster_test_inference]
+  '@@2' -> '@@3-2' [lhead = cluster_test_inference]
+  '@@2' -> '@@4' [label = 'Sample with specific test request']
+  '@@4' -> '@@2' [label = 'Decoded sample (residual) and test report']
+  '@@4' -> '@@5'
+  '@@5' -> '@@6'
+  }
+  
+  [1]: 'Client'
+  [2]: 'Physical examination \\nExamination of request letter \\nInformation about the sample \\nSample preservation/guard sample'
+  [3]: c('If complies, proceed with tests', 'If form is not accepted, reject and proceed without test')
+  [4]: 'Sample preparation, coding and decoding'
+  [5]: 'Preparation of Working sample \\nCalibration of equipment \\nStandardization of reagents \\nVarious testing as required \\nConversion to reportable format'
+  [6]: 'Bulk sample storage/disposal'
+  "
+)
+
+
+```
+
