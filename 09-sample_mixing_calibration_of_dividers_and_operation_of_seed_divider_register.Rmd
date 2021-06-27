@@ -1,1 +1,156 @@
 # Sample mixing, calibration of dividers and operation of seed divider register
+
+## Scope and purpose
+
+### Scope
+
+- For all tests to be carried out in the Central Seed Testing Laboratory it is necessary to prepare representative sample of submitted seed lot for examination. To obtain such representative sample equipment called SEED DIVIDER is used.
+
+- Seed Dividers that are used to generate representative seed sample are required to be calibrated and be traceable to international standard.
+
+### Purpose
+
+The result of all seed tests are dependent on the seed sample that is on test and the purpose of this procedure is to ensure
+
+- That all seed dividers that are used in the CSTL are regularly checked to make it certain that they deliver representative sample of the submitted sample lot under examination within their performance capabilities and operational requirements.
+- Those seed dividers, which are used to obtain representative working sample, and the result of which are reported by the section on its test certificates, are traceable to international standard.
+- That trends in the performance of seed dividers are monitored to anticipate potential out of calibration situations.
+
+### Safety
+
+- All those personnel who are engaged in seed analysis must wear a fastened laboratory coat.
+- Seed is mixed and divided mechanically in a room. If seed is dressed with chemical, if it is chemically treated, or if it is dusty, the operation is done in a ventilated cupboard with the dust extraction system switched on.
+- If seed is chemically dressed or treated, protection gloves and facemask must be worn during the mixing and dividing process.
+- The electrical integrity of all centrifugal dividers must be checked regularly.
+- Staff members, using seed dividers, must also bring to attention of the responsible person of any concerns they have about the safety of any procedures involving the use of any seed divider.
+
+## Principle and Methodology
+
+### Principle
+
+- All seed dividers operate on the same principle although the mechanical methods used may be quite different. A seed sample is thoroughly mixed before being divided into two equal portions.
+- The weight of the working sample required is achieved by a succession of mixing and halving operations.
+
+## Methodology
+
+Seed dividers in operation are of three different design types such as a) Centrifugal Divider (Gamet type divider), b) Boerner Divider and c) Riffle Divider.
+
+- **Boerner Divider** consists of a hopper, a cone with numerous ports closely spaced around its circumference. Alternate ports lead through ducts to a common outlet on one side, and the others lead similarly to an outlet on the opposite side. A valve or gate at the base of the hopper regulates the retention flow of the seed through outlets into the seed pan. This divider is convenient to handle but it is difficult to check for cleanliness. From time to time it needs to be opened and cleaned with the use of blower.
+- **Riffle Type Divider** (Multi-slot divider) has rectangular ports that are held in straight row in a frame with alternate ports leading to right and left. When the seed is poured evenly over the frame, it flows down the ports with half of it to each side.
+- **Gamet Type Divider** (Centrifugal): This divider makes use of centrifugal force to mix and scatter seeds over the dividing surface. In this divider, the seeds fall onto rapidly rotating disc, which throws half of it out to each side. This divider tends to give variable results, if it is not properly operated. Care should be taken that the divider is leveled by means of the adjustable foot knobs and sample is poured centrally into the hopper.
+
+## Persons Responsible for Action
+
+The Chief of the laboratory unit or the Manager who is responsible for:
+
+- To make it certain that all seed dividers, purchased for the purpose, meet the criteria required for the intended application and that they are checked against those criteria before being placed in service.
+- To arrange for initial calibration, preventative maintenance, servicing and any necessary repairs.
+- To ensure that all new seed dividers are endorsed in the " Seed Divider Register" in Annex – XIX and are removed from the register when withdrawn from service.
+- To provide suitable calibration samples to check the performance of seed dividers
+- To appoint "Responsible Person" in Appendix–XX and a deputy for seed dividers.
+- The Responsible persons are required to maintain a general watching in brief of seed dividers and to ensure that any concerns regarding their operation are acted upon.
+- They must maintain the Seed Divider Register. It is also to ensure that all required checks on seed dividers and any maintenance or repairs that were carried out are properly recorded.
+- The responsible persons take the charge to ensure that immediately after servicing of any seed divider for any reason a calibration sample is used to check performance of the unit and the result so obtained is recorded.
+- The Responsible Person should
+    - Ensure that pro-forma of Section 2, 3 and 4 (see Appendix XXI, XXII, XXIII) are displayed near each seed divider.
+    - Replace fully completed Section 2, 3 and 4 forms timorously and number them numerically starting from one.
+    - Sign completed section 2, 3 and 4 forms and file them in the Seed Divider Register.
+    - File details of any maintenance or repairs in the Seed Divider Register.
+- All Staff Members 3.3.1 The first person to use a seed divider on any given month is required to carry out the monthly calibration check on the Seed Divider and to record the results on the appropriate forms. Appendix XXI, XXII, XXIII3.3.2 All staff members are required to ensure that the seed divider, which they are using has had a monthly calibration check. They must also bring to the attention of the Responsible Person about the correct functioning of any seed divider.
+- All staff are responsible for ensuring tat they do not use any seed divider for species for which it is unsuitable.
+- Staff members using seed dividers are responsible for ensuring that they are clean and properly leveled before commencing mixing and dividing operations.
+- Concerned user takes responsibility of cleaning dividers after use and ensures that they are properly cleaned.
+
+## Operation of the Seed Divider Register
+
+### Copies of relevant pro-forma for compilation of the Seed Divider Register. Chief of the laboratory unit holds the master copy.
+
+- Appointment of Responsible Persons
+- The chief of the laboratory unit chooses Responsible Person and the Deputy among the staff members who should be familiar with the operation of the full range of seed dividers that are in use in the section.
+- As a rule, the Responsible Person should be of at least a Seed Analyst grade.
+- Chief of the laboratory unit records Current Responsible Person and the Deputy in the Responsible Person Section of the Seed Divider Register and then initials the entry.
+- If somebody replaces the current Responsible Person else the chief of the laboratory unit cancels the previous appointment by completing the "Date Replaced" column and initials the change.
+- Once the Responsible Person has been appointed the chief of the laboratory unit hands over the Seed Divider Register into her/his custody.
+
+### Entry of New Seed Dividers on the Register and Monthly Calibration checks.
+
+- This is the responsibility of the chief of the laboratory unit and is subject to the same procedures for purchase and performance checks as other equipment.
+- The chief of laboratory initiates a register entry for the seed divider by adding it to the index of the seed divider register and completing the appropriate parts of pro-forma for section 1 of the Register.
+- The chief of laboratory unit specifies the calibration sample to be used and the range of accuracy in terms of precision of sample and component division.
+- The chief of laboratory unit specifies the calibration sample to be used and the range of accuracy in terms of precision of sample and component division.
+- Persons carrying out checks and calibrations of seed dividers records the weight of components to the nearest of 0.1 gram.
+- Responsible Person put his or her initial in Sections 2, 3 and 4 of the Seed Divider Register, which records the monthly checks of a Seed Divider. He or she also fills details of Seed Divider in the blank pro-forma for section 2, 3 and 4.
+- To obtain the monthly sample and component division value, the Responsible Person takes the weight of the appropriate calibration sample and records it in the "Initial Weight Column". (Section 4)
+
+Section 2:
+- The Responsible Person enters the "Allowed Range" in Section 2 of the Register. It should normally be $\pm$ 5% the accuracy specified by the chief of the laboratory unit and defines the range within which the sample division must fall to confirm that the seed divider is still within the calibration range.
+- The graphical part of Section 2 should have its scale defined. In general, the scale should be set in such a way that the "Allowed Range" represents a displacement of between 50% and 75% of full scale on the graph on either side of the nominal setting.
+- The responsible person mixes and divides the calibration sample into two portions e.g. A and B using the new seed divider and weighs two portions and records it in section 2. In the meantime, addition of A and B is also recorded in the sheet. Percentage of the total weight of portions A and B is calculated and is recorded in the appropriate columns. The deviation of the percentage portions A form 50% on the chart is calculated. The Responsible Person puts initials with date in each entry.
+
+Section 3:
+- The calibration sample is a mixture of two components a) seed and b) Admixture. The weight of one of the components "the admixture" is less than 42%. Both portions A and B are weighed and are recorded.
+- For portion A the components are separated and weighed, the weight is recorded. Same is repeated for portion B.
+- The "calibration sample" part of the form is now completed by
+
+???
+
+- The percentage admixture in the calibration sample is now calculated and recorded.
+- The proportion admixture in both portion A and B is calculated as
+
+???
+
+The tolerance for component separation is checked against the table given in this SOP 9. To check the tolerance, the percentage admixture in the calibration sample is located in the tolerance table and the percentage of the admixture found in the two portions compared to the values in the table opposite the total admixture value. If the actual percentage of the admixture values obtained is greater than the table values, component division is out of the limits required. The entry should now be dated and initialed.
+
+Section 4:
+
+All components are combined, weighed and returned to the calibration sample container. The initial weight of the calibration sample and the final weight after mixing, division and component separation are recorded on the section 4 form. The 'allowed weight change' is entered in the section 4 of the Register. It will normally be +/- a value specified by the Chief of the laboratory unit and defines the range within which any change in weight at any division must fall. Values falling within this range are indicative of the calibration process having been carried out without any excess gain or loss in sample weight.
+
+The entry should now be dated and initialed.
+
+- The Responsible Person presents Section 1 to the Chief of Laboratory Unit for scrutiny and signature and places Section2, 3 and 4 near to the seed divider in a plastic pocket
+- Provided that the Chief is satisfied, the new seed divider meets satisfactory performance criteria and has gone through correct calibration then she or he may accept it into the seed divider register by signing section 1.1 for the seed divider accepting it for service.
+- The completed forms for section 1 of the seed divider register must be added as a new part of the register relevant to seed divider and the seed divider must be added to the contents section of the register. This must be done by the chief of the laboratory unit who must put his initial in the new entry.
+- The Chief of Laboratory Unit then informs. The Responsible Person that the seed divider is now accepted for use.
+- The Responsible Person must now arrange for the seed divider to have a label affixed to it showing its number.
+
+## Regular Calibration of Seed Divider
+
+### Calibration Frequency
+
+- Traceable Seed Dividers are calibrated monthly by the first person to use the divider within any given month.
+- A seed divider does not need to be checked in month if it is not used.
+- If a seed divider is returned to use after any kind of maintenance or repairs, under no circumstances it is placed for use without undergoing a calibration.
+
+### Appropriate Calibration Samples
+
+- The Chief of Laboratory prepares calibration samples to be used for the S purpose of checking the operation of seed dividers.
+- They are composed of seeds of two species, one of whose presence is less than 42% on weight basis means the portion of admixture weight.
+- The species of seed taken into use and the precise compositions are a matter of concern to the chief of the laboratory unit.
+- Calibration samples are labeled with a number and details of the type of seed dividers that are checked with.
+- The chief of the laboratory keeps a logbook, which details the weight and composition of each calibration sample he prepares.
+- The chief of the laboratory unit issues new calibration samples as and when required.
+
+###	Care of Calibration Samples
+
+- Calibration samples are only removed from their containers for as long as it is necessary and are returned immediately after the use.
+- It is important that every effort is made to avoid unnecessary contamination and or loss of sample during the mixing, dividing and separation procedures.
+- The chief of laboratory is informed when the total weight of the calibration sample is less than
+    - 900 grams if it is to be used on centrifugal and Boerner Dividers.
+    - 500 grams if it is to be used on the Riffle type divider.
+
+### Monthly Check Procedure
+
+The procedure being used is described in Appendix-XXI, XXII, XXIII.
+
+### Recording of Calibrations
+
+- All calibrations and checks are recorded on appropriate pro-forma.5.5.2 The person carrying out the check puts on his or her initial on the entries on the forms. When a form is full it should be returned to the Responsible Person who will check it, enter the end date, and the sign and puts the new date before filling it in the Seed Divider Register under the appropriate Seed Divider.
+-	The Responsible Person issues a new form having completed the header with the details of the seed divider and check parameters. The page number, the next in numerical sequence for that seed divider and the start date of the chart is also filled in.
+-	A seed divider fails the test if the indicated value differs from the allowed range and / or the Allowed Weight change and/ or if component separation is out of tolerance with anticipated values.
+
+##	Action on Failure
+
+-	In the event that any seed divider fails any calibration or any person suspects that it is not functioning correctly for any reason, then the concerned person immediately labels the seed divider as "OUT OF CALIBERATION, DO NOT USE" and informs the person responsible for seed dividers.
+-	The responsible person will investigate. Should the fault be confirmed then the Responsible Person informs the Chief of Laboratory and the later will arrange for the necessary repairs and recalibration.
+-	If the chief of Laboratory determines that this is possible after inspection, then he or she institutes checks on suspect data and also institutes a "Quality Failure Report"
+-	The quality Manager and the chief of Laboratory consult among each other after having investigated the situation and determines whether the exists to notify clients of possible problems with reported data resulting from the seed divider being out of calibration.

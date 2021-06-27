@@ -1,1 +1,55 @@
 # Use and calibration of thermometer
+
+## Scope and Purpose
+
+### Scope
+
+- Environment (Temperature, Relative Humidity etc.) plays a vital role in different seed testing methods in the laboratory. The temperature provided by incubators, germination cabinets, room germinators, pre-chilling, pre-heating, constant temperature, alternate temperature etc. has crucial role in testing role in testing. Temperatures must be checked using thermometers that are properly calibrated and whereas the daily records of temperature checks have to be maintained.
+
+### Purpose
+
+- The purpose of calibration of thermometers is to take into consideration that the temperature provided by incubators, germination cabinets and room germinators must be within $\pm$ \SI{20}{\celsius}. Pre-chilling and pre-heating should be carried out within a range of \SI{50}{\celsius} and the oven temperatures used in the determination of seed moisture contents should be carried out within a temperature range of \SI{30}{\celsius}.
+
+## Principle
+
+- In all cases, temperatures should be as uniform as possible throughout the equipment and should not vary by more than half the range permitted for the mean.
+- Temperatures must be checked using thermometers that are calibrated and daily records of temperature checks must be maintained.
+
+## Operating Procedure for Calibration
+
+- Check the performance of temperature controlled equipment data logger.
+- Monitor the temperature of each piece of equipment over a period of at least seven days at half an hour intervals.
+- The temperature profiles of apparatus should then be derived by plating probes on top, middle and bottom shelves and at three positions on the middle shelf at the front, middle and back.
+- The temperature profile for any piece of apparatus should have a range of less than one half the range permitted for the mean temperature.
+-	Temperature profiles can be derived over a period of 24 hours with readings taken at half hourly intervals.
+-	During all temperature monitoring operations the apparatus should not be opened or otherwise disturbed.
+-	Above-mentioned temperature monitoring exercise is repeated on an annual basis. 
+-	Records of temperature monitoring exercises are filed in the Equipment Register.
+-	Apparatus is replaced if maintenance and adjustment fails to ensure that the temperature specifications are met.
+-	For future orders of any temperature-controlled equipment, the required temperature specification should be quoted as a condition for the acceptance of the equipment.
+- The new equipment is installed and is used only after its temperature is monitored and profiles are derived.
+- Equipment that fails to meet the required specification is returned to the manufacturer and no payment is made.
+
+## Monitoring Procedure
+
+- Temperature controlled items of equipment that are in service and conform to temperature specifications are routinely monitored.
+- When these are in use the temperature reading is recorded each day and is charted.
+- At least two readings are taken each day.
+- In the case of alternating temperature equipment, at least one reading is taken in the high temperature phase and one in the low temperature phase. An example of a temperature-monitoring chart that could be attached to an incubator is given in Appendix XVI. Completed temperature charts are filed in the Equipment Register. They are required of be retained for five years and be presented for inspection by auditors if required.
+- If the temperature of a piece of apparatus goes outside the required limits, it is withdrawn from the service.
+- Before accepting back to the service after any maintenance, the apparatus is checked as outlined above. Details of such checks are filed in the Equipment Register.
+- In freezers, temperature measurements are made with A20C/ Total Thermometer, which is a total immersion thermometer covering the range \SIrange{-20}{20}{\celsius} marked in \SI{0.1}{\celsius} intervals.
+- In Refrigerators, Incubators, Germinators and germination room, the temperature measurements are made with a calibrated A 40C/ Total Thermometer, which is a total immersion thermometer covering the range of \SIrange{0.5}{40.5}{\celsius} marked in \SI{0.1}{\celsius} intervals.
+- Thermometers for the above and freezers are placed in a clear glass tube (length: 431mm, OD: 14mm, ID: 12mm), which is then filled with glycerol and sealed at the open and with plastic film and adhesive tape. The tube containing the thermometer is placed as near the middle of the working area as possible avoiding newly introduced items that have not yet had time to reach the correct temperature. The tube is left in place for at least one hour and then a reading is taken as soon as the door is opened. The temperature is recorded and expressed to one decimal place.
+- Measurement in ovens and drying cabinets, which are provided with a port of insertion for the thermometer, is made with a partial immersion thermometer with 100mm immersion.
+- Care should be taken to site the thermometer so that the immersion length indication is just visible when it is viewed from inside the piece of equipment.
+- Appropriate thermometers are B60C/100 type. They are a partial immersion thermometer covering a range of \SIrange{0}{60}{\celsius} marked in \SI{20}{\celsius} intervals.
+- A B105 C/100 that is a partial immersion thermometer covering the range of \SIrange{45}{105}{\celsius} marked in \SI{0.2}{\celsius} intervals.
+- A 160C/100 is a partial immersion thermometer covering the range of \SIrange{99}{160}{\celsius} marked in \SI{0.2}{\celsius} intervals. The immersion length of all three types is 100 mm. The thermometer actually used should be the one that places the nominal temperature of the apparatus nearest the middle of the scale range.
+- The thermometer is placed as near as possible to the middle of the unit.
+- If the appliance has a transparent door, the thermometer readings should be taken through the door without opening it.
+- However, care should be taken to ensure that the thermometer can be read properly without distortion of the view by the door material.
+- The two consecutive readings must not differ by more that one scale division on the thermometer.
+- Thermometers in drying cabinets and ovens are positioned and left to equilibrate for at least five minutes before any reading is observed.
+- All thermometers are calibrated on an annual basis and a record of calibrations are filed for at least five years.
+- For thermometers with a 00 C marking, ice point temperature readings are required. Where the scale of the thermometer does not go through 00 C, the thermometer is calibrated against a calibrated K type thermocouple attached to a portable temperature meter 

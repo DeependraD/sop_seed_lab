@@ -444,36 +444,36 @@ Seed lot off-range heterogeneity is tested by using the appropriate table for to
 ```
 
 
-```{r purity-r-non-chaffy}
-read_csv("./data/max_tol_range_r_purity_non_chaffy.csv") %>% 
-  magrittr::set_colnames(c("Component", "Complement", "samples_5-9", "samples_10-19", "samples_20")) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Maximum tolerated ranges for the R value test at a significance level of 1 \\% probability using components of purity analyses as the indicating attribute in non-chaffy seeds.", col.names = c("", "", "5-9", "10-19", "20"), longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::add_header_above(c("Average \\% of the component\\newline and its complement" = 2, "Tolerated range for\\newline number of independent samples (N)" = 3), line = TRUE, escape = FALSE) %>% 
-  kableExtra::column_spec(column = 1:5, width = rep("5em", times = 5))
-```
+<!-- ```{r purity-r-non-chaffy} -->
+<!-- read_csv("./data/max_tol_range_r_purity_non_chaffy.csv") %>%  -->
+<!--   magrittr::set_colnames(c("Component", "Complement", "samples_5-9", "samples_10-19", "samples_20")) %>%  -->
+<!--   knitr::kable(booktabs = TRUE, caption = "Maximum tolerated ranges for the R value test at a significance level of 1 \\% probability using components of purity analyses as the indicating attribute in non-chaffy seeds.", col.names = c("", "", "5-9", "10-19", "20"), longtable = TRUE) %>%  -->
+<!--   kableExtra::kable_styling(latex_options = "striped") %>%  -->
+<!--   kableExtra::add_header_above(c("Average \\% of the component\\newline and its complement" = 2, "Tolerated range for\\newline number of independent samples (N)" = 3), line = TRUE, escape = FALSE) %>%  -->
+<!--   kableExtra::column_spec(column = 1:5, width = rep("5em", times = 5)) -->
+<!-- ``` -->
 
 
-```{r germination-r-non-chaffy}
-read_csv("./data/max_tol_range_r_germination_non_chaffy.csv") %>% 
-  magrittr::set_colnames(c("Component", "Complement", "samples_5-9", "samples_10-19", "samples_20")) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Maximum tolerated ranges for the R value test at a significance level of 1 \\% probability using components of germination analyses as the indicating attribute in non-chaffy seeds.", col.names = c("", "", "5-9", "10-19", "20"), longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::add_header_above(c("Average % of the component and its complement" = 2, "Tolerated range for number of independent samples (N)" = 3)) %>% 
-  kableExtra::column_spec(column = 1:5, width = rep("5em", times = 5))
-```
+<!-- ```{r germination-r-non-chaffy} -->
+<!-- read_csv("./data/max_tol_range_r_germination_non_chaffy.csv") %>%  -->
+<!--   magrittr::set_colnames(c("Component", "Complement", "samples_5-9", "samples_10-19", "samples_20")) %>%  -->
+<!--   knitr::kable(booktabs = TRUE, caption = "Maximum tolerated ranges for the R value test at a significance level of 1 \\% probability using components of germination analyses as the indicating attribute in non-chaffy seeds.", col.names = c("", "", "5-9", "10-19", "20"), longtable = TRUE) %>%  -->
+<!--   kableExtra::kable_styling(latex_options = "striped") %>%  -->
+<!--   kableExtra::add_header_above(c("Average % of the component and its complement" = 2, "Tolerated range for number of independent samples (N)" = 3)) %>%  -->
+<!--   kableExtra::column_spec(column = 1:5, width = rep("5em", times = 5)) -->
+<!-- ``` -->
 
 
-```{r other-seeds-r-non-chaffy}
-read_csv("./data/max_tol_range_r_other_seed_non_chaffy1.csv") %>% 
-  bind_rows(read_csv("./data/max_tol_range_r_other_seed_non_chaffy2.csv")) %>% 
-  bind_rows(read_csv("./data/max_tol_range_r_other_seed_non_chaffy3.csv")) %>%
-  magrittr::set_colnames(c("Component", "samples_5-9", "samples_10-19", "samples_20")) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Maximum tolerated ranges for the R value test at a significance level of 1 \\% probability using components of other seed count analyses as the indicating attribute in non-chaffy seeds.", col.names = c("", "5-9", "10-19", "20"), longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::add_header_above(c("Average % of the component and its complement" = 1, "Tolerated range for number of independent samples (N)" = 3)) %>% 
-  kableExtra::column_spec(column = 1:4, width = rep("6em", times = 4))
-```
+<!-- ```{r other-seeds-r-non-chaffy} -->
+<!-- read_csv("./data/max_tol_range_r_other_seed_non_chaffy1.csv") %>%  -->
+<!--   bind_rows(read_csv("./data/max_tol_range_r_other_seed_non_chaffy2.csv")) %>%  -->
+<!--   bind_rows(read_csv("./data/max_tol_range_r_other_seed_non_chaffy3.csv")) %>% -->
+<!--   magrittr::set_colnames(c("Component", "samples_5-9", "samples_10-19", "samples_20")) %>%  -->
+<!--   knitr::kable(booktabs = TRUE, caption = "Maximum tolerated ranges for the R value test at a significance level of 1 \\% probability using components of other seed count analyses as the indicating attribute in non-chaffy seeds.", col.names = c("", "5-9", "10-19", "20"), longtable = TRUE) %>%  -->
+<!--   kableExtra::kable_styling(latex_options = "striped") %>%  -->
+<!--   kableExtra::add_header_above(c("Average % of the component and its complement" = 1, "Tolerated range for number of independent samples (N)" = 3)) %>%  -->
+<!--   kableExtra::column_spec(column = 1:4, width = rep("6em", times = 4)) -->
+<!-- ``` -->
 
 For higher other seed counts (in non-chaffy seeds), tolerances (R) are calculated by using the following formula and rounding up to the next whole number.
 

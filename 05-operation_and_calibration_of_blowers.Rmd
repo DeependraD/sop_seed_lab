@@ -1,1 +1,27 @@
 # Operation and calibration of blowers
+
+## Scope and Purposes
+
+### Scope
+
+- Blower's aids are often useful in seed testing laboratory to separate light weight material such as chaff and empty florets in grasses from the heavier seeds.
+
+### Purpose
+
+-	Use of blowers saves at least 50 % of the time spent on the purity test.
+
+## Principle
+
+2.1 A good blower provides a uniform flow of air and is capable of standardization as well as of retaining all the particles which it separates.
+
+## Operation Mechanism
+
+- Blowing apparatus essentially consists of a centrifugal blower, the outlet of which is connected to the bottom end of a vertical tube of a few centimeters internal diameter and about half a meter length. A fine wire retains the sample before it is blown and also, holds the resultant heavy fraction. Different arrangements exist to catch the light fraction. A valve allows the wind velocity to be set a rate that has been found optimal for the kind of seed.
+- For certain species ISTA has devised an alternative - the Uniform Blowing Method. To this end ISTA Secretariat has distributed calibration samples and instructions to operate. The blower is set with the sample and after blowing the samples to be tested, the heavy fraction is considered to be full and the light fraction is considered to be empty. The method is compulsory for Poa pratensis and Dactylis glomerata and it is recommended for Chloris gayana as an alternative to the hand method.
+
+## Calibration of the Blower
+
+- Carry out calibration of the blower using specially prepared samples of the relevant species in which the light and heavy fractions are distinctively stained.
+- Keep these samples normally in dust and moisture proof containers.
+- Regularly check the calibration of the blower as the setting will be affected by atmospheric pressure, humidity, temperature, draughts and even variations in electric voltage of power supply.
+- Analyst In-charge normally takes the responsibility of calibration of a blower and carries it out according to a strict procedure.

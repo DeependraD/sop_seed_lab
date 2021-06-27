@@ -94,3 +94,8 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/r,bookdown,linux,windows
 
 literatures
+_book/*
+packages.bib
+seed_manual.aux
+seed_manual.out
+seed_manual.toc

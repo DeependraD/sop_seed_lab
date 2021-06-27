@@ -1,1 +1,24 @@
 # Seed registration system
+
+## Scope and Purpose
+
+- The main task of sample reception in administration unit is to register the submitted samples as in Appendix XVII of SOP8, provide them with identification number, decide what kinds of tests are required, and to prepare working sheets (analysis forms) for each test.
+
+## Procedure
+
+- Most of the samples receipt in the laboratory is by post, through peon and through other personnel.
+- Place these samples in the incoming containers until they are registered. Verify, before unpacking the sample, which both the sample and test desired meet the conditions regarding identification, marking, sealing, packing and weight etc.
+- Depending on the type of sample, sometimes, irregularities may come across such as
+    - The species or cultivars name on the request form is not the same as on the label of the sample.
+    - A moisture test has been requested but a special moisture test sample has not been submitted.
+    - Lot of time appears to be elapsed since the sample was drawn from the lot.
+    - Weight of the submitted sample was not adequate.
+- Record such irregularities on the request form.
+- Ask the applicant or the sampler to provide additional information.
+- Record all relevant details on the form.
+- Enter the information on the sample slip as in Appendix XVIII 0f SOP8 for reference in case of seriously damaged package and sent the sample back to the sender or sampler.
+- In other cases, communicate with the sender for required information immediately.
+- Do not enter the identity of the applicant or client in the analysis form in order to avoid the biasness of analyst in analytical performance.
+- Stamp dates of receipt and sample registration number in the analysis forms, the request form and in the label of the sample. (The use of a numbering machine and rubber stamp is recommended not only for numbering and for dating but also for other items that appear frequently such as code number and species name.)
+- Arrange safe storage of blank forms, rubber stamps, scissors, glue etc. and make them readily available for the use in the sample reception section.
+- Arrange enough space for temporary storage of incoming samples so as to leave working surfaces free for safe handling of each sample and the preparation of the appropriate document.

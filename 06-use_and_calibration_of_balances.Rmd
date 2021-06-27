@@ -1,1 +1,33 @@
 # Use and calibration of balances
+
+## Scope and purposes
+
+### Scope
+
+- The essential piece of equipment for a seed analyst is a balance. The sample submitted for testing should contain sufficient seed in quantity and should be compatible to minimum sample weights for each kind of seed as specified in Seed Regulations. This situation demands a precision balance.
+- Purpose
+- This SOP 6 intends to give a general understanding on the basic kinds of balance available for seed analysis together with guidance on the use of these balances in general.
+
+## Principle
+
+- Balances to be used in the laboratory must be checked for its performance each day that they are calibrated with the standard weight of the appropriate mass.
+
+## Kinds of Balances
+
+- There are three basic kinds of balances in common usage. They are conveniently described as mechanical, electromechanical and electronic. If they are properly used, there should be no difference between them in quality of results.
+- Mechanical balances are the most basic type. They are true balances in that the object to be weighed is balanced against a fixed known mass. They require no electricity.
+- Electromechanical balance is an advanced form of the basic type. They do balance an object against a known mass but use a light and system of moving mirrors to indicate the weight on a moving scale. Counter weights are normally selected by turning one or more knobs connected to a system of levers, which release a series of weights in turn on to the balance beam. They are faster to use than mechanical balances, but the degree of precision and complication in their construction makes them expensive to build and they need regular skilled attention if accuracy is not to be deteriorated. This type of balance is being rapidly replaced by the electronic type.
+- In principle, Electronic type balance is entirely different from either mechanical or electromechanical types. The basic idea is quite simple.
+The balance pan is fixed to an electromagnetic core, around which are electric coils forming what is called a force motor. In very simple terms, what happens is that the weight of the sample tries to push the core down and this is resisted by the balance feeding more power into the coils to keep it in place. As the required power is proportional to the weight on the pan, it is possible for the electronic brain of the balance to measure the power and to display it in terms of the weight on the pan. Electronic balances have the advantages of being very quick and easy to use and they need no regular maintenance.
+
+## Operating Procedure for Calibration
+
+- The laboratory should be equipped with two standard weights for this purpose.
+- CSTL has one digit- two electronic balance, two digits -one electronic balance, three digit- one electronic balance and four digits -one electronic balance. One is of 20 grams for the analytical balance with torsion scale. Another is of 500 grams for the other balances that are used in the CSTL.
+- Keep these standard weights in a very safe place and handle them using the correct procedures to ensure that their mass remains accurate.
+- Always use forceps or a gloved hand while handling these weights.
+- Place the weight on top of a tarred piece of tissue paper or lens cloth on the balance pan
+- Determine the weights of these standards in the analytical balance as a check according to the need.
+- Record the results of these checks on a "Balance Control Chart" (Appendix XVII)
+- The allowable range on this chart is $\pm$ half the minimum significant reading required, for example, if the need were to weigh to the nearest gram then the allowable range would be $\pm$ \SI{0.5}{\gram} and if the need were to weigh to \SI{0.01}{\gram} then the allowable range would be $\pm$ \SI{0.005}{\gram}.
+- If a balance reading goes outside the allowable range, withdraw it from the service and send it for maintenance. Do not put it in use until it again gives satisfactory calibration readings. Detail procedure is given in working instruction.

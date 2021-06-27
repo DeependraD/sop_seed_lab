@@ -1,1 +1,77 @@
 # Operation and maintenance of the seed reference collection
+
+##	Scope and Purpose
+
+###	Scope
+
+1.1.1	This procedure applies to all seed reference collections that are used in CSTL. It is narrated as follows.
+
+1.1.2	Main seed Reference Collection. This is the Master Collection containing seed specimens of different species. It is located in the office of the Head of Section of CSTL and is used as a means of identifying seed, which are not in either of the other collections and verifying additions to other collections.
+
+1.1.3	Purity Laboratory Seed Reference Collection. This collection contains seed specimens of species likely to be encountered in the purity laboratory. It is used as a means of identifying seeds, which are not in the Seed Analyst's Seed Reference Collections.
+
+1.1.4	Seed Analyst's individual Seed Reference Collection
+
+1.1.5	These are the Seed Analyst's own Individual Seed Reference Collections.
+
+###	Purpose
+
+The purpose of this procedure is to ensure that
+
+1.2.1	All identifications made on seeds found in the course of the Purity and Determination of other Seeds by number Test are traceable to reference seed samples.
+
+1.2.2	All seed reference collections are maintained so as to ensure that seed identification can be made accurately and efficiently.
+
+## Principle
+In the purity tests and determination of other seed by number tests, Seed Analysts are required to identify contaminant seeds that are present in the sample lot. This collection of seeds is facilitated in identification, which contains authentic samples of seeds of different species.
+
+## Persons Responsible for Action
+
+###	Head of Section
+
+- The Head of Section is responsible for ensuring that the seed reference collections are maintained in such a way that seed identifications can be made accurately and efficiently.
+- The Head of Section is responsible for appointing "Responsible Person" and Deputy for the seed reference collections. In practice, they are usually the Laboratory Manager and the Senior Seed Analyst in-charge of the Purity Laboratory respectively.
+3.2	Responsible Person
+- The Responsible Person and Deputy Responsible Person are recorded in the Responsible Person Record Sheet by the Head of Section who initials the entries and hold records in the file in Appendix XIV. If the appointments replace existing Responsible persons, the Head of Section cancels the previous appointment by completing the "date replaced" column and initialing the change.
+- The Responsible Persons are required to maintain a general watching brief on the Seed Reference Collections and to ensure that any concerns regarding their operation are acted upon.
+
+### Seed Analyst
+
+- Seed Analysts are required to ensure that their individual Seed Reference Collections are maintained in such a way that identifications can be carried out accurately and efficiently.
+- Seed Analysts are to ensure that they refer any doubtful identifications to the Responsible Person or Deputy Responsible Person.
+
+## Nomenclature and Classification
+
+- The Linnaean binominal system of nomenclature is used for the collections of naming of seeds. For each species, a botanical or "Latin" name is used.
+- Classification can help greatly in the identification of unknown seeds and uses the following groupings starting from species as the basic unit.
+
+  Genus - A group of closely related species 
+  Family - A group of closely related genera 
+  Order - A group of closely related families 
+  Class - A group of closely related orders 
+  Phylum - A group of closely related classes
+
+- The particular names used for the species in each of the collections follow the ISTA "List of Stabilized Names" 6th edition, 2013.
+
+## Main Seed Reference Collection
+
+### Location and structures
+
+The main Seed Reference Collection is situated in the office of the Head of Section.
+
+The arrangement of The Main Seed Reference Collection is such that it is convenient and easy to use. The seeds are filed by family first, then by genus and then by species. Seeds from the same botanical family are grouped together.
+
+### Source and Authentication of Seed
+
+In a seed reference collection, it is vital that all specimens are correctly identified before they are included. Seeds contained in the Main Seed Reference Collection have been obtained from botanical gardens and gene banks throughout the different continents. These seeds have been obtained from authentic sources and the identity of each species guaranteed by the supplier.
+
+### Containers and labels
+
+Specimens are kept in clear glass tubes, plastic boxes or cellophane packets. The genus and species' botanical names are either enclosed or attached on a label along with the index reference number. Details of the country and place of origin where available, are also noted on the label.
+
+When an Analyst finds a seed in an analysis with which she or he is unfamiliar, she or he firstly refers to his/her own individual seed reference collection. If no positive identification is made, the larger purity laboratory reference collection is referred to. If he/ she is still unable to identify the seed or seeds with the aid of these collections, the Main Seed Reference Collection is then finally referred.
+
+### Maintenance
+
+Name changes take place in all areas of taxonomy. Botanical family names, genus names and species names can be changed following work completed by taxonomists. When this happens, the new names are listed in ISTA publications such as the Newsletter or Updates to the ISTA List of stabilized plant Names. It is then the job of the Responsible Person to update the relevant family, genus or species names in the Main Seed Reference Collection. The Responsible Person also has to ensure that these name changes are carried out in the purity laboratory reference collection and the Analyst's own individual seed reference collections with verified references. This task is usually delegated to the Deputy Responsible Person.
+ 

@@ -1,1 +1,29 @@
 # Pro-forma for equipment register
+
+## Example of Pro-forma for Equipment Register
+
+###	Scope and Purpose
+
+1.1	Scope
+
+1.1.1	This gives details of the equipment that are used in the laboratory and describes the care and maintenance procedure.
+
+1.2	Purpose
+
+It is to give details on following:
+
+1.2.1	Details of all the equipment available in the laboratory
+1.2.2	Policy concerning purchase of equipment
+1.2.3	Procedure for checking and commissioning new equipment and maintenance of existing ones
+
+###	Operation Procedure
+
+2.1	One master copy of the equipment Register is maintained with accession record e.g. Lab No., Type of instrument, Model No., Name of the manufacturer, Date of receipt, Serial No. and the prevailing condition.
+2.2	The document is not issued or circulated to any person outside CSTL but anyone could consult with reasonable reason to look at it with the permission from the Chief of the Laboratory.
+2.3	Chief of the Laboratory authorizes any additions or deletions of equipment as well as any calibration before it is endorsed in the register.
+2.4	The maintenance record sheets are checked and authorized by the person currently responsible for the equipment and when completed, it is added into the register.
+2.5	In the absence of the CSTL Chief or currently appointed responsible person a designated deputy may act in his or her behalf.
+2.6	The operation of the Equipment Register and the maintenance of individual pieces of the said equipment are covered by standard procedures contained in the Procedures Manual, which should be consulted before any action is taken.
+
+\includepdf[pages={-}]{extra/pro-forma-staff-register.pdf}
+

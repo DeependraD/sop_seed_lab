@@ -22,7 +22,7 @@ Seed samples are submitted to Sample Reception Unit of Administration Division a
 12. For the smooth and effective operation of the laboratory, proper routing of the sample from the registration through reporting becomes very important and prevailing flow diagram is attached.
 
 
-```{r general-process-unit-overview}
+```{r general-process-unit-overview, out.width="85%"}
 DiagrammeR::grViz(
   "
   digraph boxes_and_circles {
