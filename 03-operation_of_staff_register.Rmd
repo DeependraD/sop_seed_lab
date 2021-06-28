@@ -1,4 +1,4 @@
-# Pro-forma for equipment register
+# Operation of staff register
 
 ## Example of Pro-forma for Equipment Register
 
@@ -26,4 +26,5 @@ It is to give details on following:
 2.6	The operation of the Equipment Register and the maintenance of individual pieces of the said equipment are covered by standard procedures contained in the Procedures Manual, which should be consulted before any action is taken.
 
 \includepdf[pages={-}]{extra/pro-forma-staff-register.pdf}
+
 
