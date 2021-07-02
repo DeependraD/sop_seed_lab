@@ -1,1 +1,40 @@
 # Physical purity test
+
+## Object
+
+The object of the purity analysis is to determine:
+
+a. The percentage composition by weight of the sample being tested and by inference the composition of the seed lot
+b. The identity of the various species of seeds and inert particles constituting the sample.
+
+## Definitions
+
+### Pure seed
+
+The pure seed must refer to the species stated by the applicant, or found to predominate in the test, and must include all botanical varieties and cultivars of that species including:
+
+1. The following structures (even if immature, undersized, shrivelled, diseased or germinated, providing they can be definitely identified as of that species) unless transformed into partially or fully ergotised visible sclerotia, smut balls or nematode galls (with exceptions raised when the uniform blowing method is used):
+    1. Intact seed units ( = commonly found dispersal units i.e. achenes and similar fruits, schizocarps, florets, etc.) as defined for each genus or species in the Pure Seed Definitions (PSDs) in the Table 3B Part 2 of ISTA Rules.
+    In poaceae:
+        a. florets with an obvious cariopsis containing endosperm,
+        b. free caryopses.
+    2. Pieces of seed units larger than one-half their original size.
+
+2. From the above main principles, exceptions are made for certain genera of Poaceae (Table 3B Part 2):
+    a. a minimum size of caryopsis is requried;
+    b. the presence of caryopses in spikelets and florets is not always obligatory;
+    c. the separation of pure seed and inert matter is done by a uniform blowing procedure;
+    d. multiple seed units (MSU) are left intact in the pure seed fraction;
+    e. attached sterile florets are not removed;
+    f. for certain genera appendages are left on the seed but reported according to @attached-appendages
+
+### Other seeds {#purity-definitions}
+
+Other seeds must include seed units of any plant species other than that of pure seed. With respect to classification as other seed or inert matter the distinguishing characteristics described int he pure seed definitions (Table 3B Part 2) must also be applicable except that:
+
+1. Seed units of species for which a uniform blowing procedure applies are evaluated without blowing.
+2. Multiple seed units (MSU) must be separated and the single units classified according to the general principles in @purity-definitions.
+3. _Cuscuta_ spp. seed units which are fragile or ashen grey to creamy white in color are classified as inert matter.
+4. For schizocarps with two or more seeds, the individual seeds (mericarps) contained in a schizocarp are to be counted separately.
+
+For species and genera without pure seed definitions in Table 3B Part 2 the definitions in @pure-seed must apply.
