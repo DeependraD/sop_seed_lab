@@ -30,11 +30,103 @@ The pure seed must refer to the species stated by the applicant, or found to pre
 
 ### Other seeds {#purity-definitions}
 
-Other seeds must include seed units of any plant species other than that of pure seed. With respect to classification as other seed or inert matter the distinguishing characteristics described int he pure seed definitions (Table 3B Part 2) must also be applicable except that:
+Other seeds must include seed units of any plant species other than that of pure seed and identifiable weed seed. With respect to classification as other seed or inert matter the distinguishing characteristics described in the pure seed definitions (Table 3B Part 2) must also be applicable except that:
 
 1. Seed units of species for which a uniform blowing procedure applies are evaluated without blowing.
 2. Multiple seed units (MSU) must be separated and the single units classified according to the general principles in @purity-definitions.
 3. _Cuscuta_ spp. seed units which are fragile or ashen grey to creamy white in color are classified as inert matter.
 4. For schizocarps with two or more seeds, the individual seeds (mericarps) contained in a schizocarp are to be counted separately.
 
-For species and genera without pure seed definitions in Table 3B Part 2 the definitions in @pure-seed must apply.
+For species and genera without pure seed definitions in Table 3B Part 2 the definitions in @pure-seed must apply. Multiple structures, capsules, pods are opened and the seeds are removed and the non-seed material placed in the inert matter, except for certain species or general as indicated in the Pure Seed Definitions (Table 3B Part 2).
+
+### Weed seeds
+
+Seed, bulblets, tubers of plant recognized as weeds by the Seed Act, Seed Rules and regulations related to seed or by general usage shall be considered as weed seeds. With respect to classification as weed seed or inert matters the distinguishing characteristics set out for pure seed, in general, shall also be applicable to weed seed.
+
+### Inert matter
+
+Inert matter shall include seed units and not all other matter and structures defined as pure seed or other seed as follows:
+
+a. Seed units in which it is readily apparent that no true seed is present.
+b. Florets of those species listed in 3.5.2.2 with caryopsis less than the minimum size prescribed. Sterile florets attached to a fertile floret are to be removed, except in certain genera listed in 3.5.2.2.
+c. Pieces of broken or damaged seed units half or less than half the original size.
+d. Those appendages not classed as being part of the pure seed in the pure seed definitions for the species (Table 3B Part 2). Appendages not mentioned in the pure seed definitions must be removed and included in the inert matter.
+e. Seeds of berberidaceae, brassicaceae, cupressaceae, fabaceae, pinaceae and taxaceae with seed coat entirely removed. In fabaceae, separated cotyledons are regarded as inert matter, irrespective of whether or not the radicle-plumule axis and/or more half of the testa may be attached.
+f. Seeds of _Cuscuta_ spp. which are fragile or ashen grey to creamy white in color.
+g. Unattached sterile florets, empty glumes, lemmas, paleas, chaff, stems, leaves, cone scales, wings, bark, flowers, nematode galls, fungus bodies such as ergot, sclerotia and smut balls, soil, sand, stones and all other non-seed matter.
+h. All material left in the light fraction when the separation is made by the uniform blowing method (3.5.2.5) except other seeds (as defined in 3.2.2).
+
+    In the heavy fraction, broken florets, and caryopses half or less than half the original size, and all other matter except pure seed (3.2.1) and other seed (3.2.2).
+
+## General principles
+
+The working sample is separated into the following four component parts -- pure seed, weed seed, other crop seeds, and inert matter. The percentage of each part is determined by weight. All species of seed each kind of inert matter present shall be identified as far as possible and, if required for reporting, its percentage by weight shall be determined.
+
+## Apparatus
+
+Aids such as magnifiers, reflected light, sieves and blowers may be used in separating the working sample into its component parts.
+
+### Magnifiers, reflected light and sieves
+
+Hand lenses and binocular microscopes are quite often necessary aids for an accurate identification and separation of small seed units and fragments.
+
+Reflected light is very useful for separating sterile florets of grasses from fertile ones and may also be used for detection of nematode galls and fungal bodies.
+
+Sieves can be used as an aid for the purity analysis in separating trash, soil and other small particles from the working sample.
+
+### Seed blowers
+
+Seed blowers can be used to separate light-weight material such as chaff and empty florets from the heavier seeds for all species as a tool for purity analysis.
+
+Blowers that will give the most accurate separations normally handle only small smaples (upto 5 g). A good blower should provide a uniform flow of air, be capable of standardization and retain all the particles which it separates.
+
+For certain species and varieties of Poaceae, seed blowers must be used by the uniform blowing method (3.5.2.5) to separate light weight material such as chaff and empty florets from the heavier seeds.
+
+In order to maintain a uniform flow of air the blower should have one or more air compression chambers and a fan driven by a uniform speed motor. The diameter of the blowing tube should be in proportion to the size of the working sample and the tube should be long enough to allow satisfactory separation of the sample. The value or air gate that regulates the air flow should be capable of precise adjustment, should be calibrated and marked to permit easy reading, and its construction and location should prevent areas of strong and weak currents in the blowing tube.
+
+A seed blower to be used for the uniform blowing method must be capable of:
+
+a. blowing at different air velocities (determined by the use of the calibration samples) to suit different species;
+b. maintaining a uniform flow of air at the velocity required by the crop species under test;
+c. rapid adjustment to any velocity likely to be required. The setting to provide each velocity should be checked annually by blowing a calibration sample issued under the authority of ISTA;
+d. accurate time setting.
+
+#### Calibration of the seed blower
+
+The air gate openings and the equivalent air velocity (EAV) value (see 3.4.2.2) of the optimum blowing point for a General-type seed blower are determined by using the uniform calibration samples. Calibration samples are issued under the authority of ISTA and are available for _Dactylis glomerata_ and _Poa partensis_. Prior to calibration, the calibration samples must be exposed to room conditions overnight.
+
+The air gate opening for the varieties of _Poa partensis_ listed in Table 3A, with an average thousand-seed weight less than 0.35 g, and for _Poa trivialis_ is obtained by multiplying the value of the air gate setting for _Poa partensis_ by 0.82 (applies only for General-type seed blowers).
+
+#### Determination of the equivalent air velocity
+
+After a General-type seed blower has been calibrated according to @calibration-of-the-seed-blower, the EAV of the air gate opening must be measured using anemometer. The following procedure must be used:
+
+1. Set the blower at the optimum blowing point, i.e., the air gate opening, obtained with the ISTA uniform calibration sampel for the relevant species, e.g. _Dactylis glomerata_ or _Poa partensis_. Do not change that air gate opening.
+2. Remove the sample cup from the cup holder, insert the anemometer with digital display facing up, and align the fan of the anemometer over the blower opening where the air flows from the chamber into the sample cup holder.
+3. Turn on the anemometer and select metres per second (m/s), hold the amemometer in a steady position and then turn on the blower.
+4. Read the air velocity value after the digital display of the anemometer reaches a steady reading (typically about 30 s after the blower was turned on). Example: If the anemometer indicates \SI{2.3}{\meter\per\second} most frequently and fluctuates between 2.2 and \SI{2.4}{\meter\per\second}, the EAV value of that specific air-gate opening would be recorded as $2.3\pm 0.1$ \si{\meter\per\second}.
+
+Once the optimum air velocity has been measured, the seed blower can be recalibrated using the anemometer, by adjusting the blower setting unitll the optimum air velocity for the blower and species or variety is reached. The EAV for one blower is not transferable to another blower.
+
+The optimum blowing point must be verified using the ISTA uniform calibration sample after major servicing of the blower, such as changing part of the motor or the glass column. In general, it is strongly recommended that the blowing point be verified annually using the ISTA uniform calibration sample.
+
+Laboratories that can not, or do not, use the EAV to determine the blowing poing must calibrate the blower with the ISTA uniform calibration sample^[Note: Frequent use of the ISTA calibration sample can cause shift in blowing point due to deterioration and monitoring the blowing point simply by air gate opening may be reliable in some blowers and not in others.]
+
+#### Anemometer type
+
+Any suitable anemometers can be used as long as the anemometer fits in the sample cup holder compartment of the blower and has a scale calibrated in \si{\meter\per\second} for reading the air velocity value.
+
+#### Calibration of the anemometer
+
+The anemometer should be calibrated at intervals set by the laboratory. In addition, the batteries should be replaced at least once a year.
+
+## Procedure
+
+### Working sample
+
+The purity analysis must be made on a working sample taken from the submitted sample in accordance with 2.5.2 of the ISTA Rules, the submitted sample having been received in accordance with 2.5.1.
+
+Except for species of poaceae for which the uniform blowing method is to be used, the size of the working sample must be:
+
+either, a weight estimated to contain at least 2500 seed units,
+or not less than the weight indicated in the column 4 of Table 2C.
