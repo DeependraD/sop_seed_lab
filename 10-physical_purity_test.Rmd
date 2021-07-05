@@ -130,3 +130,127 @@ Except for species of poaceae for which the uniform blowing method is to be used
 
 either, a weight estimated to contain at least 2500 seed units,
 or not less than the weight indicated in the column 4 of Table 2C.
+
+The analysis may be made on one working sample of this weight or on two representative subsamples of at least half this weight.
+
+The working sample (or each subsample) must be weighed in grams to the minimum number of decimal places necessary to calculate the percentage of its components parts to one decimal place, as indicated below.
+
+```{r}
+tribble(
+    ~"Weight of working sample or subsample (g)", ~"Minimum number of decimal places",
+    "Less than 1.000", 4,
+    "1.000-9.999", 3,
+    "10.00-99.99", 2,
+    "100.0-999.9", 1,
+    "1000 or more", 0
+) %>% 
+    knitr::kable(booktabs = TRUE, caption = "Weight of working sample and corresponding minimum number of decimal places in weight to be recorded.") %>% 
+    kableExtra::kable_styling(latex_options = "striped", font_size = 10)
+```
+
+### Separation
+
+1. The working sample (or subsample) after weighing must be separated into its component parts as defined in @physical-general-principles. In general, the separation must be based on an examination of each particle in the sample, but in certain cases special procedures are obligatory, such as uniform blowing.
+
+2. The separation of the pure seed must be on such a basis that it can be made by visible seed characteristics, mechanical aids or using pressure without impairing the capacity of germination.
+
+3. When it is difficult or impossible to distinguish between species, one of the procedures described in @indistinguishable-species must be followed. Furthermore, for methods which may be used for clearly distinguishing species and cultivars, but are not permissible in the purity analysis, refer to Chapter 8.
+
+4. After separation, each component part (@physical-general-principles ) and any species of seed or kind of other matter for which a percentage is to be reported, must be weighed in grams to the minimum number of decimal places necessary to calculate the percentage to one decimal place (@physical-procedure-working-sample). After weighing, the other seed components must be retained and stored for reference until sample disposal (@seed-storage-of-samples-after-testing and @seed-storage-of-submitted-samples-after-testing).
+
+#### All families except Poaceae
+
+Achenes, schizocarps and mericarps, other fruits and seeds are to be examined superficially only, without the use of pressure, a diaphanascope or other special equipment. If it is obvious on such an examination that there is no seed in the structure, it is to be regarded as inert matter.
+
+#### Poaceae
+
+**Caryopses**
+
+In _Lolium_, _Festuca_, _x Festulolium_ and _Elymus repens_ a floret with a caryopsis one third or more of the length of the palea measured from the base of the rachilla is regarded as pure seed or other seed, but a floret with a caryopsis less than one third the length of palea is regarded as inert matter. In other genera or species, a floret with any endosperm in the caryopsis is regarded as pure seed.
+
+**Sterile florets**
+
+In the following genera a sterile floret attached to a fertile floret is not removed, but left attached and included in the pure seed fraction: _Arrhenatherum_, _Avena_, _Bromum_, _Chloris_, _Dactylis_, _Festuca_, _x Festulolium_, _Holcus_, _Koeleria_, _Lolium_, _Poa_, _Sorghum_, _Triticum turgidum_ subsp. _dicoccon_ and _Triticum aestivum_ subsp. _spelta_.
+
+#### Damaged seed
+
+If the seed units mentioned in 3.2.1 show no evident damage to the test or pericarp, they are regarded as pure seed or other seed, irrespective of whether they are empty or full, but difficulty may arise when there is an opening in the testa or pericarp. If possible, the analyst must decide whether the remaining solid portion of the seed unit is larger than one-half the original size and apply this rule accordingly. If such a determination cannot be readily made, the seed unit will be classed as pure seed or other seed. It is not necessary for individual seed units to be turned over to determine the presence or absence of holes or other damaged areas on the underside.
+
+Broken florets and caryopses are classed as pure seed or other seed if the piece is larger than half the original size (@physical-pure-seed 1.2).
+
+#### Indistinguishable species
+
+When it is difficult or impossible to distinguish between species, one of the two following procedures may be followed:
+
+a. Only the genus name is reported on the analysis certificate, all seeds of that genus (e.g. both awned and awnless seeds of lolium) being classed as pure seed; additional information may be reported under 'Other determinations', or
+b. The similar seeds are separated from the other components and weighed together. From this mixture at least 400 seeds, and preferably about 1000, are taken at random; a final separation is made on this portion and the proportion of each species determined by weight. From this proportion the percentage of each species in the entire sample can be calculated (3.6).
+
+If this procedure is followed, the details must be reported including the number of seeds examined. The procedures are applicable when the seed is described by the sender as a species of _Agrostis_, _Brassica_, _Lolium_, _Poa_, and _Festuca rubra_ or _F. ovina_, and in other cases at the discretion of the analyst.
+
+#### _Poa pratensis_, _Poa trivialis_ and _Dactylis glomerata_
+
+For _Poa pratensis_, _Poa trivialis_ and _Dactylis glomerata_, the uniform blowing method (see 3.4.2) is obligatory.
+
+The working sample size is 1 g for _Poa pratensis_ and _Poa trivialis_ and 3 g for _Dactylis glomerata_.
+
+The optimum blower settings for _Poa pratensis_ and _Dactylis glomerata_ are determined by means of a uniform calibration sample issued under the authority of ISTA (see 3.4.2.1)^[For procedure on setting of blower of _Poa pratensis_ varieties (provided in a Table) refer to the same section on ISTA Rules].
+
+For blowing samples, set the seed blower to the optimum blower setting, obtained with the ISTA uniform calibration sample or the anemometer (see 3.4.2.1).
+
+Place the working sample into the cup and blow for exactly 3 minutes.
+
+Prior to blowing, the working sample must be exposed to room conditions to equilibrate with ambient conditions.
+
+For definition of pure seed, inert matter and other seed in the heavy fraction (portion remaining in the cup after blowing), refer to the section on "Separation of the heavy fraction, ISTA Rules".
+
+All _Poa pratensis_, _Poa trivialis_ or _Dactylis glomerata_ florets and caryopses contained in the light fraction must be considered as inert matter. Other seeds (including other _Poa_ spp. in _P. pratensis_ and _P. trivialis_), sticks, stems, sand, etc. must be classified in accordance with 3.2.2 and 3.2.3. When fertile florets of some _Poa_ spp. (e.g. _Poa compressa_) are present in a sample of _P. pratensis_ or _Poa trivialis_ it is necessary to examine the entire light fraction under magnification.
+
+For procedure on determination of pure seed with minor amounts (1-3%) of these seeds in a sample and when seeds of other _Poa_ spp. are present in a sample of _P. pratensis_ or _P. trivialis_ in larger amounts (3-5%) use of alternative method is prescribed (ISTA Rules).
+
+When a seed for which the prescribed method for the purity test involves blowing method but is nevertheless chemically treated and the treatment affects the blowing characteristics, the purity of the sample must be determined using the hand method and the Certificate endorsed with the words: "Because of the chemical treatment the purity test has been carried out by the hand method". Where the seed lot has been tested before the treatment was applied and only a germination result after treatment is required, then the Certificate must be endorsed with the words: "Because of the chemical treatment, the pure seed used for the germination was obtained by the hand method."
+
+#### Multiple seed units (MSU)
+
+On the request of the applicant in the genera covered by PSD 33: Multiple seed units are to be weighed separately and reported according to 3.7.
+
+#### Procedure when individual impurities have an undue effect on results
+
+Impurities which deviate considerably in size or weight from the seed size of the sample being tested may unduly affect test results. Such cases may arise with stones, large cereal kernels, etc. in a small-seeded crop. If they are relatively easy to eliminate, for example by sieving, remove these impurities from the entire submitted sample (or a sample of at least 10 times the weight used for purity analysis) and perform a normal analysis on the cleaned material, in working samples of the usual weight. Such impurities must be reported, and calculations must be made in accordance with 3.6.5.
+
+#### Attached appendages
+
+In certain genera (those covered by PSD 15, 38, 46 and 62) seed/fruits may have various appendages (awns, stalk, etc.) attached. Such appendages must be left attached to the seeds, but on the request of the applicant the content of seeds with appendages longer than the greatest dimension must be reported according to 3.7.
+
+#### Winged seed
+
+For seeds with PSD 47, winged seeds are those which retain an integument, either with or without wing or a portion thereof. For seeds with PSD 51, winged seeds are those which retain the wing or a portion thereof. Whenever present, such appendages must be left attached to the seed and the content of 'winged' seed reported according to 3.7.
+
+## Calculation and expression of results
+
+### Test for weight gain or loss during analysis
+
+Add together the weights of all the component fractions from the working sample^[For two half working samples component fractions of each half working sample must be weighed independently]. This sum must be compared with the original weight as a check against gain or loss. If there is a discrepancy of more than 5% of the initial weight, a retest must be made. The result of the re-test is then reported.
+
+### Calculation of component percentages
+
+The percentage by weight of each of the component parts
+to be reported on the analysis certificate (3.7) must be
+given to one decimal place^[For two half working samples, percentage weight of components of each independenly considered half working samples should be reported at least two decimal places.]. Percentages must be based
+on the sum of the weights of the components (on each half, for two half working samples), not on the
+original weight of the working sample.
+
+In component percentage calculation of two half working sample, add the appropriate percentage together from each half working sample and calculate the average percentage by weight for each component. (If desired, the percentages may now be rounded off to a minimum of two decimal places; but do not correct to 100.00%). Check against tolerances and rounding off according to 3.6.2.3 and 3.6.2.4, respectively.
+
+The percentage of seed of any particular species other than the pure seed, or of any particular kind of inert matter need not be calculated except as required by 3.7.
+
+### Test for variation between the two half working samples^[Applicable only for two half working sample]
+
+The difference
+
+### Rounding procedure
+
+Fraction percentages must be rounded to one decimal place. After rounding, add together the percentages of all fractions. Fractions that are to be reported as a 'trace' (see 3.7) are excluded from this calculation; the other fractions must then together total 100.0%. If the sum does not equal 100.0% (either 99.9 or 100.1%), add or subtract 0.1% from the largest value (normally the pure seed fraction)^[Note: If a correction of more than 0.1% is necessary check for a calculation error.].
+
+For two half working sample, if all replicate of all fractions are within tolerance, add together the weights of all the corresponding fractions together, calculate percentages and round the figures off to one decimal place.
+
+For procedures on expression and reporting of results with two or more whole working samples, refer to ISTA Rules.
