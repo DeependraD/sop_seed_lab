@@ -22,7 +22,7 @@ Seed samples are submitted to Sample Reception Unit of Administration Division a
 12. For the smooth and effective operation of the laboratory, proper routing of the sample from the registration through reporting becomes very important and prevailing flow diagram is attached.
 
 
-```{r general-process-unit-overview, out.width="85%"}
+```{r general-process-unit-overview, out.width="92%"}
 DiagrammeR::grViz(
   "
   digraph boxes_and_circles {
@@ -62,7 +62,7 @@ DiagrammeR::grViz(
   
   [1]: 'Client'
   [2]: 'Physical examination \\nExamination of request letter \\nInformation about the sample \\nSample preservation/guard sample'
-  [3]: c('If complies, proceed with tests', 'If form is not accepted, reject and proceed without test')
+  [3]: c('If complies, proceed with tests', 'If form is not accepted, reject \\nand proceed without test')
   [4]: 'Sample preparation, coding and decoding'
   [5]: 'Preparation of Working sample \\nCalibration of equipment \\nStandardization of reagents \\nVarious testing as required \\nConversion to reportable format'
   [6]: 'Bulk sample storage/disposal'
